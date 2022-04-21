@@ -1,0 +1,14 @@
+﻿.table td .image{
+    width: 100px;
+    object-fit: cover;
+}
+.table > thead > tr > th{
+    text-align:center;
+    vertical-align:middle;
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+.table tbody tr .actionBtns {
+    padding: 29px 12px;
+}

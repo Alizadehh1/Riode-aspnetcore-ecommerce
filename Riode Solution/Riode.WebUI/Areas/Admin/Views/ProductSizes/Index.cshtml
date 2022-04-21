@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Riode.WebUI.Models.Entities.ProductSize>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- Page-header start -->
+<div class="page-header">
+    <div class="row align-items-end">
+        <div class="col-lg-8">
+            <div class="page-header-title">
+                <div class="d-inline">
+                    <h4>List Of Product Sizes</h4>
+                    @*<span>
+                        lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit
+                    </span>*@
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="page-header-breadcrumb">
+                <ul class="breadcrumb-title">
+                    <li class="breadcrumb-item" style="float: left;">
+                        <a asp-action="index" asp-controller="dashboard"> <i class="feather icon-home"></i> </a>
+                    </li>
+                    <li class="breadcrumb-item" style="float: left;">
+                        <a href="#!">Product Sizes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page-header end -->
+<!-- Page-body start -->
+<div class="page-body">
+    <!-- Horizontal-border table start -->
+    <div class="card">
+        <div class="card-header">
+            <h5>Product Sizes</h5>
+            @*<span>
+                    Example of <code>horizontal</code> table borders. This is a
+                    default table border style attached to <code>.table</code> class.
+                    All borders have the same grey color and style, table itself doesn't
+                    have a border, but you can add this border using
+                    <code>.table-framed</code> class added to the table with
+                    <code>.table</code> class.
+                </span>*@
+
+        </div>
+        <div class="card-block table-border-style">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ShortName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Name)
+                            </th>
+                            <th class="actionBtns">
+                                <a asp-action="Create"><button class="btn btn-success btn-icon"><i class="icofont-plus"></i></button></a>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr data-entity-id="@item.Id">
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ShortName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td class="actionBtns">
+                                    <a asp-action="Edit" asp-route-id="@item.Id"><button class="btn btn-warning btn-icon"><i class="icofont-pencil-alt-5"></i></button></a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id"><button class="btn btn-info btn-icon"><i class="icofont icofont-eye-alt"></i></button></a> |
+                                    <a onclick="removeEntity(event,@item.Id,'@item.Name')" class="btn btn-danger btn-icon">
+                                        <i class="icofont-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+<!-- Page-body end -->
+        </div>
+    </div>
+</div>

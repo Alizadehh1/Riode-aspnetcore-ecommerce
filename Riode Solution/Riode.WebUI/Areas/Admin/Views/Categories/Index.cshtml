@@ -1,0 +1,113 @@
+﻿@model IEnumerable<Riode.WebUI.Models.Entities.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="page-header">
+    <div class="row align-items-end">
+        <div class="col-lg-8">
+            <div class="page-header-title">
+                <div class="d-inline">
+                    <h4>List Of Product Sizes</h4>
+                    @*<span>
+                            lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit
+                        </span>*@
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="page-header-breadcrumb">
+                <ul class="breadcrumb-title">
+                    <li class="breadcrumb-item" style="float: left;">
+                        <a asp-action="index" asp-controller="dashboard"> <i class="feather icon-home"></i> </a>
+                    </li>
+                    <li class="breadcrumb-item" style="float: left;">
+                        <a href="#!">Categories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-body">
+    <div class="card">
+        <div class="card-header">
+            <h5>Categories</h5>
+            @*<span>
+                    Example of <code>horizontal</code> table borders. This is a
+                    default table border style attached to <code>.table</code> class.
+                    All borders have the same grey color and style, table itself doesn't
+                    have a border, but you can add this border using
+                    <code>.table-framed</code> class added to the table with
+                    <code>.table</code> class.
+                </span>*@
+
+        </div>
+        <div class="card-block table-border-style">
+            <div class="table-responsive">
+                <table class="table table-hover tree">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Name)
+                            </th>
+                            <th class="actionBtns">
+                                <a asp-action="Create"><button class="btn btn-success btn-icon"><i class="icofont-plus"></i></button></a>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Where(c => c.ParentId == null))
+                        {
+                            <tr data-entity-id="@item.Id" class="treegrid-@item.Id">
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td class="actionBtns">
+                                    <a asp-action="Edit" asp-route-id="@item.Id"><button class="btn btn-warning btn-icon"><i class="icofont-pencil-alt-5"></i></button></a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id"><button class="btn btn-info btn-icon"><i class="icofont icofont-eye-alt"></i></button></a> |
+                                    <a onclick="removeEntity(event,@item.Id,'@item.Name')" class="btn btn-danger btn-icon">
+                                        <i class="icofont-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+
+                            @foreach (var child in item.GetAllChildren())
+                            {
+                                <tr data-entity-id="@child.Id" class="treegrid-@child.Id treegrid-parent-@child.ParentId">
+                                    <td>
+                                        @Html.DisplayFor(modelItem => child.Name)
+                                    </td>
+                                    <td class="actionBtns">
+                                        <a asp-action="Edit" asp-route-id="@child.Id"><button class="btn btn-warning btn-icon"><i class="icofont-pencil-alt-5"></i></button></a> |
+                                        <a asp-action="Details" asp-route-id="@child.Id"><button class="btn btn-info btn-icon"><i class="icofont icofont-eye-alt"></i></button></a> |
+                                        <a onclick="removeEntity(event,@child.Id,'@child.Name')" class="btn btn-danger btn-icon">
+                                            <i class="icofont-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <!-- Page-body end -->
+        </div>
+    </div>
+</div>
+
+
+
+@section css{
+    <link href="~/libs/jquery-treegrid/css/jquery.treegrid.css" rel="stylesheet" />
+}
+@section js{
+    <script src="~/libs/jquery-treegrid/js/jquery.treegrid.js"></script>
+
+    <script type="text/javascript">
+        $('.tree').treegrid();
+    </script>
+
+    
+}
