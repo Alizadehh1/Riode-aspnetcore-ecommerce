@@ -1,16 +1,11 @@
-﻿@model Riode.WebUI.Models.Entities.Blog
+﻿@model Blog
 
 @{
     ViewData["Title"] = "Edit";
 }
-
-<h1>Edit</h1>
-
-<h4>Blog</h4>
-<hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
@@ -19,41 +14,24 @@
             </div>
             <div class="form-group">
                 <label asp-for="Paragraph" class="control-label"></label>
-                <input asp-for="Paragraph" class="form-control" />
+                <textarea asp-for="Paragraph" class="form-control editor"></textarea>
                 <span asp-validation-for="Paragraph" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ImagePath" class="control-label"></label>
-                <input asp-for="ImagePath" class="form-control" />
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class="form-control select2" asp-items="@ViewBag.CategoryId">
+                    <option selected disabled>---Choose One---</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="file" class="control-label">Image</label>
+                <input name="file" id="file" type="file" class="form-control" />
+                <input type="hidden" asp-for="ImagePath"/>
                 <span asp-validation-for="ImagePath" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
-                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
-                <span asp-validation-for="CategoryId" class="text-danger"></span>
-            </div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="CreatedById" class="control-label"></label>
-                <input asp-for="CreatedById" class="form-control" />
-                <span asp-validation-for="CreatedById" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CreatedDate" class="control-label"></label>
-                <input asp-for="CreatedDate" class="form-control" />
-                <span asp-validation-for="CreatedDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeletedById" class="control-label"></label>
-                <input asp-for="DeletedById" class="form-control" />
-                <span asp-validation-for="DeletedById" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeletedDate" class="control-label"></label>
-                <input asp-for="DeletedDate" class="form-control" />
-                <span asp-validation-for="DeletedDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
+                <input type="hidden" asp-for="Id"/>
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
@@ -63,4 +41,22 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+@section js{
+    <script src="~/libs/ckeditor5/ckeditor.min.js"></script>
+
+    <script>
+        document.querySelectorAll('.editor').forEach(function (item, index) {
+            ClassicEditor
+                .create(item)
+                .then(editor => {
+                    console.log(editor);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+
+        });
+    </script>
+}
 

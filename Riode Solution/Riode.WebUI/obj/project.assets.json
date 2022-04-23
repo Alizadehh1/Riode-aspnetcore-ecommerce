@@ -7155,11 +7155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Practice (asp.net)\\Riode Solution\\Riode.WebUI\\Riode.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebUI\\Riode.WebUI.csproj",
       "projectName": "Riode.WebUI",
-      "projectPath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Practice (asp.net)\\Riode Solution\\Riode.WebUI\\Riode.WebUI.csproj",
+      "projectPath": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebUI\\Riode.WebUI.csproj",
       "packagesPath": "C:\\Users\\alide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Practice (asp.net)\\Riode Solution\\Riode.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alide\\AppData\\Roaming\\NuGet\\NuGet.Config",

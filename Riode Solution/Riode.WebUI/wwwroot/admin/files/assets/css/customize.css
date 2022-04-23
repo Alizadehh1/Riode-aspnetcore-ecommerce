@@ -12,3 +12,23 @@
 .table tbody tr .actionBtns {
     padding: 29px 12px;
 }
+.table td.cell-sm{
+    max-width:120px;
+    width:120px;
+    overflow:hidden;
+}
+.table td.cell-md {
+    max-width: 250px;
+    width: 250px;
+    overflow: hidden;
+}
+.ck-content{
+    min-height:250px;
+}
+@media (max-width:1200px){
+    td.ellipse{
+        max-width:50px;
+        white-space:nowrap;
+        overflow:hidden;
+    }
+}

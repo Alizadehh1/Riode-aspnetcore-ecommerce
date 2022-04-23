@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPN06O/d2w+32HGsK+uC1MQf9T8HIlA29PtMbHsaxshX7TZclxk/9mYyAuZKfkrGo1HnQUR+TUZBrxKyX3R95w==",
+  "dgSpecHash": "jS1Qaip5/UeM4opGcEpeQYohAob9z8AvU5g5qGT6wHC+5ylae1f1W8A5l6A1Kf+MbA34CrS5YOAxNRsNl4kXTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Practice (asp.net)\\Riode Solution\\Riode.WebUI\\Riode.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebUI\\Riode.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alide\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alide\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -104,23 +104,47 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(blog);
         }
 
-        // POST: Admin/Blogs/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Title,Paragraph,ImagePath,CategoryId,Id,CreatedById,CreatedDate,DeletedById,DeletedDate")] Blog blog)
+        public async Task<IActionResult> Edit([FromRoute] int id,Blog blog,IFormFile file)
         {
             if (id != blog.Id)
             {
                 return NotFound();
             }
-
+            if (file==null && string.IsNullOrEmpty(blog.ImagePath))
+            {
+                ModelState.AddModelError("ImagePath", "Image Cannot be empty");
+            }
             if (ModelState.IsValid)
             {
                 try
                 {
+                    var currentEntity = db.Blogs
+                        .AsNoTracking()
+                        .FirstOrDefault(b => b.Id == id);
+                    if (currentEntity == null)
+                    {
+                        return NotFound();
+                    }
+                    if (file!=null)
+                    {
+                        string fileExtension = Path.GetExtension(file.FileName);
+                        string name = $"blog-{Guid.NewGuid()}{fileExtension}";
+                        string physicalPath = Path.Combine(env.ContentRootPath, "wwwroot", "uploads", "images", name);
+                        using (var fs = new FileStream(physicalPath, FileMode.Create, FileAccess.Write))
+                        {
+                            file.CopyTo(fs);
+                        }
+                        blog.ImagePath = name;
+                        string physicalPathOld = Path.Combine(env.ContentRootPath, "wwwroot", "uploads", "images", currentEntity.ImagePath);
+                        if (System.IO.File.Exists(physicalPathOld))
+                        {
+                            System.IO.File.Delete(physicalPathOld);
+                        }
+                    }
                     db.Update(blog);
+                    db.Entry(blog).Property(p => p.CreatedDate).IsModified = false;
+                    db.Entry(blog).Property(p => p.CreatedById).IsModified = false;
                     await db.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)

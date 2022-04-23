@@ -17,6 +17,10 @@
     {
       "library": "toastr.js@2.1.4",
       "destination": "wwwroot/libs/toastr.js/"
+    },
+    {
+      "library": "ckeditor5@34.0.0",
+      "destination": "wwwroot/libs/ckeditor5/"
     }
   ]
 }
