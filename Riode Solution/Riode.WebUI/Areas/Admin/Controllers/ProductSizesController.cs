@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Riode.WebUI.AppCode.Modules.ColorModule;
+using Riode.WebUI.AppCode.Modules.SizeModule;
 using Riode.WebUI.Models.DataContexts;
 using Riode.WebUI.Models.Entities;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Riode.WebUI.Areas.Admin.Controllers
 {
@@ -24,41 +21,23 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             this.mediator = mediator;
         }
 
-        // GET: Admin/ProductSizes
         public async Task<IActionResult> Index()
         {
             return View(await db.Sizes.ToListAsync());
         }
 
-        // GET: Admin/ProductSizes/Details/5
-        public async Task<IActionResult> Details(ColorSingleQuery query)
+        public async Task<IActionResult> Details(SizeSingleQuery query)
         {
             var entity = await mediator.Send(query);
+
             return View(entity);
-            //if (id == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //var productSize = await db.Sizes
-            //    .FirstOrDefaultAsync(m => m.Id == id);
-            //if (productSize == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //return View(productSize);
         }
 
-        // GET: Admin/ProductSizes/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Admin/ProductSizes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,ShortName,Name")] ProductSize productSize)
@@ -72,7 +51,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(productSize);
         }
 
-        // GET: Admin/ProductSizes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -88,9 +66,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(productSize);
         }
 
-        // POST: Admin/ProductSizes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,ShortName,Name")] ProductSize productSize)
@@ -123,7 +98,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(productSize);
         }
 
-        // GET: Admin/ProductSizes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -141,7 +115,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(productSize);
         }
 
-        // POST: Admin/ProductSizes/Delete/5
         [HttpPost]
         public IActionResult Delete([FromRoute]int id)
         {
