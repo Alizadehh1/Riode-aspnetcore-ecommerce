@@ -21,9 +21,11 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             this.mediator = mediator;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(SizeAllQuery query)
         {
-            return View(await db.Sizes.ToListAsync());
+            var entity = await mediator.Send(query);
+
+            return View(entity);
         }
 
         public async Task<IActionResult> Details(SizeSingleQuery query)
@@ -40,15 +42,14 @@ namespace Riode.WebUI.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ShortName,Name")] ProductSize productSize)
+        public async Task<IActionResult> Create(SizeCreateCommand command)
         {
             if (ModelState.IsValid)
             {
-                db.Add(productSize);
-                await db.SaveChangesAsync();
+                var data = await mediator.Send(command);
                 return RedirectToAction(nameof(Index));
             }
-            return View(productSize);
+            return View(command);
         }
 
         public async Task<IActionResult> Edit(int? id)
