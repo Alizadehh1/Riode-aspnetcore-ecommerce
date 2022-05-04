@@ -57,6 +57,21 @@ namespace Riode.WebUI.Migrations
                     b.ToTable("Blogs");
                 });
 
+            modelBuilder.Entity("Riode.WebUI.Models.Entities.BlogPostTag", b =>
+                {
+                    b.Property<int>("BlogId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PostTagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("BlogId", "PostTagId");
+
+                    b.HasIndex("PostTagId");
+
+                    b.ToTable("BlogPostTagCloud");
+                });
+
             modelBuilder.Entity("Riode.WebUI.Models.Entities.Brand", b =>
                 {
                     b.Property<int>("Id")
@@ -117,6 +132,51 @@ namespace Riode.WebUI.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("Riode.WebUI.Models.Entities.Contact", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime?>("AnswerDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("AnswerMessage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("AnsweredById")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("CreatedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("DeletedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Contacts");
+                });
+
             modelBuilder.Entity("Riode.WebUI.Models.Entities.Faq", b =>
                 {
                     b.Property<int>("Id")
@@ -135,12 +195,51 @@ namespace Riode.WebUI.Migrations
                     b.ToTable("Faqs");
                 });
 
+            modelBuilder.Entity("Riode.WebUI.Models.Entities.PostTag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("CreatedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("DeletedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PostTags");
+                });
+
             modelBuilder.Entity("Riode.WebUI.Models.Entities.ProductColor", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("CreatedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("DeletedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("HexCode")
                         .HasColumnType("nvarchar(max)");
@@ -160,6 +259,18 @@ namespace Riode.WebUI.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int?>("CreatedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("DeletedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -171,6 +282,33 @@ namespace Riode.WebUI.Migrations
                     b.ToTable("Sizes");
                 });
 
+            modelBuilder.Entity("Riode.WebUI.Models.Entities.Specification", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("CreatedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("DeletedById")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Specification");
+                });
+
             modelBuilder.Entity("Riode.WebUI.Models.Entities.Blog", b =>
                 {
                     b.HasOne("Riode.WebUI.Models.Entities.Category", "Category")
@@ -178,6 +316,25 @@ namespace Riode.WebUI.Migrations
                         .HasForeignKey("CategoryId");
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Riode.WebUI.Models.Entities.BlogPostTag", b =>
+                {
+                    b.HasOne("Riode.WebUI.Models.Entities.Blog", "Blog")
+                        .WithMany("TagCloud")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Riode.WebUI.Models.Entities.PostTag", "PostTag")
+                        .WithMany("TagCloud")
+                        .HasForeignKey("PostTagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blog");
+
+                    b.Navigation("PostTag");
                 });
 
             modelBuilder.Entity("Riode.WebUI.Models.Entities.Category", b =>
@@ -189,11 +346,21 @@ namespace Riode.WebUI.Migrations
                     b.Navigation("Parent");
                 });
 
+            modelBuilder.Entity("Riode.WebUI.Models.Entities.Blog", b =>
+                {
+                    b.Navigation("TagCloud");
+                });
+
             modelBuilder.Entity("Riode.WebUI.Models.Entities.Category", b =>
                 {
                     b.Navigation("Blogs");
 
                     b.Navigation("Children");
+                });
+
+            modelBuilder.Entity("Riode.WebUI.Models.Entities.PostTag", b =>
+                {
+                    b.Navigation("TagCloud");
                 });
 #pragma warning restore 612, 618
         }

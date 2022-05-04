@@ -13,5 +13,6 @@ namespace Riode.WebUI.Models.Entities
         public string ImagePath { get; set; }
         public int? CategoryId { get; set; } 
         public virtual Category Category { get; set; }
+        public virtual ICollection<BlogPostTag> TagCloud { get; set; }
     }
 }

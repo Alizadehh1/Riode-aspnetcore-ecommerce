@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Riode.WebUI.Models.Entities.Specification>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="actionBtns">
+                <a asp-action="Create"><button class="btn btn-success btn-icon"><i class="icofont-plus"></i></button></a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td class="actionBtns">
+                    <a asp-action="Edit" asp-route-id="@item.Id"><button class="btn btn-warning btn-icon"><i class="icofont-pencil-alt-5"></i></button></a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"><button class="btn btn-info btn-icon"><i class="icofont icofont-eye-alt"></i></button></a> |
+                    <a onclick="removeEntity(event,@item.Id,'@item.Name')" class="btn btn-danger btn-icon">
+                        <i class="icofont-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section js{
+    <script src="~/libs/sweetalert/sweetalert.min.js"></script>
+    <script>
+        function removeEntity(ev, entityId, name) {
+            swal({
+                title: "Are you sure?",
+                text: `${name} will be deleted, Are you sure?`,
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        $.ajax({
+                            url: `@Url.Action("Delete")/${entityId}`,
+                            type: 'post',
+                            success: function (response) {
+                                if (response.error==true) {
+                                    toastr.error(response.message, "Error!");
+                                    return;
+                                }
+                                toastr.success("Successfully", response.message)
+                                $(`tr[data-entity-id=${entityId}]`).remove();
+                            },
+                            error: function (response) {
+                                //toastr["error"]("Unsuccessfully", "Data has not been deleted")
+                            }
+                        })
+                    }
+                });
+        }
+    </script>
+}

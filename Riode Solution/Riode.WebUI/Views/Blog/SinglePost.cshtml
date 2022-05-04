@@ -1,4 +1,4 @@
-﻿@model Blog
+﻿@model SinglePostViewModel
 <nav class="breadcrumb-nav mt-0 mt-lg-3">
     <div class="container">
         <ul class="breadcrumb">
@@ -15,22 +15,22 @@
                 <article class="post-single">
                     <figure class="post-media">
                         <a href="#">
-                            <img src="~/uploads/images/@Model.ImagePath" width="880" height="450" alt="post" />
+                            <img src="~/uploads/images/@Model.Post.ImagePath" width="880" height="450" alt="post" />
                         </a>
                     </figure>
                     <div class="post-details">
                         <div class="post-meta">
                             by <a href="#" class="post-author">John Doe</a>
-                            on <a href="#" class="post-date">@Model.CreatedDate.ToString("MMM dd, yyyy")</a>
+                            on <a href="#" class="post-date">@Model.Post.CreatedDate.ToString("MMM dd, yyyy")</a>
                             | <a href="#" class="post-comment"><span>2</span> Comments</a>
                         </div>
                         <h4 class="post-title">
                             <a>
-                                @Model.Title
+                                @Model.Post.Title
                             </a>
                         </h4>
                         <div class="post-body mb-7">
-                            @Html.Raw(Model.Paragraph)
+                            @Html.Raw(Model.Post.Paragraph)
                         </div>
                         <div class="post-author-detail">
                             <figure class="author-media">
@@ -107,119 +107,37 @@
                                         }
                                     }
                                 }">
+                        @foreach (var item in Model.RelatedPost)
+                        {
+                            <div class="post">
+                                <figure class="post-media">
+                                    <a href="#">
+                                        <img src="~/uploads/images/@item.ImagePath" width="380" height="250"
+                                             alt="post" />
+                                    </a>
+                                    <div class="post-calendar">
+                                        <span class="post-day">@item.CreatedDate.ToString("dd")</span>
+                                        <span class="post-month">@item.CreatedDate.ToString("MMM")</span>
+                                    </div>
+                                </figure>
+                                <div class="post-details">
+                                    <h4 class="post-title">
+                                        <a asp-action="singlepost" asp-route-id="@item.Id">
+                                            @item.Title
+                                        </a>
+                                    </h4>
+                                    <p class="post-content">
+                                        @Html.Raw(item.Paragraph.HtmlToPlainText().ToEllipse())
+                                    </p>
+                                    <a asp-action="singlepost" asp-route-id="@item.Id"
+                                       class="btn btn-link btn-underline btn-primary">
+                                        Read more<i class="d-icon-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        }
 
-                        <div class="post">
-                            <figure class="post-media">
-                                <a href="#">
-                                    <img src="~/assets/images/blog/single/3.jpg" width="380" height="250"
-                                         alt="post" />
-                                </a>
-                                <div class="post-calendar">
-                                    <span class="post-day">19</span>
-                                    <span class="post-month">JAN</span>
-                                </div>
-                            </figure>
-                            <div class="post-details">
-                                <h4 class="post-title">
-                                    <a href="post-single.html">
-                                        20% Off Coupon for
-                                        Week
-                                    </a>
-                                </h4>
-                                <p class="post-content">
-                                    Lorem ipsum dolor sit amet,onadipiscing elit, sedsd
-                                    doeiu
-                                </p>
-                                <a href="post-single.html"
-                                   class="btn btn-link btn-underline btn-primary">
-                                    Read more<i class="d-icon-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="post">
-                            <figure class="post-media">
-                                <a href="#">
-                                    <img src="~/assets/images/blog/single/4.jpg" width="380" height="250"
-                                         alt="post" />
-                                </a>
-                                <div class="post-calendar">
-                                    <span class="post-day">27</span>
-                                    <span class="post-month">SEP</span>
-                                </div>
-                            </figure>
-                            <div class="post-details">
-                                <h4 class="post-title">
-                                    <a href="post-single.html">
-                                        20% Off Coupon for
-                                        Week
-                                    </a>
-                                </h4>
-                                <p class="post-content">
-                                    Lorem ipsum dolor sit amet,onadipiscing elit, sedsd
-                                    doeiu
-                                </p>
-                                <a href="post-single.html"
-                                   class="btn btn-link btn-underline btn-primary">
-                                    Read more<i class="d-icon-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="post">
-                            <figure class="post-media">
-                                <a href="#">
-                                    <img src="~/assets/images/blog/single/5.jpg" width="380" height="250"
-                                         alt="post" />
-                                </a>
-                                <div class="post-calendar">
-                                    <span class="post-day">12</span>
-                                    <span class="post-month">SEP</span>
-                                </div>
-                            </figure>
-                            <div class="post-details">
-                                <h4 class="post-title">
-                                    <a href="post-single.html">
-                                        20% Off Coupon for
-                                        Week
-                                    </a>
-                                </h4>
-                                <p class="post-content">
-                                    Lorem ipsum dolor sit amet,onadipiscing elit, sedsd
-                                    doeiu
-                                </p>
-                                <a href="post-single.html"
-                                   class="btn btn-link btn-underline btn-primary">
-                                    Read more<i class="d-icon-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="post">
-                            <figure class="post-media">
-                                <a href="#">
-                                    <img src="~/assets/images/blog/single/4.jpg" width="380" height="250"
-                                         alt="post" />
-                                </a>
-                                <div class="post-calendar">
-                                    <span class="post-day">27</span>
-                                    <span class="post-month">SEP</span>
-                                </div>
-                            </figure>
-                            <div class="post-details">
-                                <h4 class="post-title">
-                                    <a href="post-single.html">
-                                        20% Off Coupon for
-                                        Week
-                                    </a>
-                                </h4>
-                                <p class="post-content">
-                                    Lorem ipsum dolor sit amet,onadipiscing elit, sedsd
-                                    doeiu
-                                </p>
-                                <a href="post-single.html"
-                                   class="btn btn-link btn-underline btn-primary">
-                                    Read more<i class="d-icon-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
                 <div class="comments">
@@ -452,15 +370,10 @@
                         <div class="widget widget-posts widget-collapsible">
                             <h3 class="widget-title">Tag Cloud</h3>
                             <div class="widget-body">
-                                <a href="#" class="tag">Bag</a>
-                                <a href="#" class="tag">Classic</a>
-                                <a href="#" class="tag">Converse</a>
-                                <a href="#" class="tag">Leather</a>
-                                <a href="#" class="tag">Fit</a>
-                                <a href="#" class="tag">Green</a>
-                                <a href="#" class="tag">Man</a>
-                                <a href="#" class="tag">Jeans</a>
-                                <a href="#" class="tag">Women</a>
+                                @foreach (var item in Model.Post.TagCloud)
+                                {
+                                    <a href="#" class="tag">@item.PostTag.Name</a>
+                                }
                             </div>
                         </div>
                     </div>

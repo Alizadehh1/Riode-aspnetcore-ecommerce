@@ -20,5 +20,18 @@ namespace Riode.WebUI.Models.DataContexts
         public DbSet<ProductColor> Colors { get; set; }
         public DbSet<Faq> Faqs { get; set; }
         public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Specification> Specification { get; set; }
+        public DbSet<PostTag> PostTags { get; set; }
+        public DbSet<BlogPostTag> BlogPostTagCloud { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<BlogPostTag>(e=>
+            {
+                e.HasKey(k => new { k.BlogId, k.PostTagId });
+            });
+        }
     }
 }

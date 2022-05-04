@@ -25,8 +25,24 @@
 .ck-content{
     min-height:250px;
 }
-@media (max-width:1200px){
-    td.ellipse{
+.photo-viewer {
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-image: url('https://png.pngtree.com/png-vector/20191129/ourlarge/pngtree-image-upload-icon-photo-upload-icon-png-image_2047546.jpg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    cursor: cell;
+}
+.photo-viewer + input[type="file"]{
+    display:none;
+}
+.form-groupImage{
+    display:flex;
+    align-items:center;
+}
+@media (max-width:1200px) {
+    td .ellipse{
         max-width:50px;
         white-space:nowrap;
         overflow:hidden;

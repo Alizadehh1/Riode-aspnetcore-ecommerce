@@ -109,5 +109,35 @@
         $('.tree').treegrid();
     </script>
 
-    
+    <script src="~/libs/sweetalert/sweetalert.min.js"></script>
+    <script>
+        function removeEntity(ev, entityId, name) {
+            swal({
+                title: "Are you sure?",
+                text: `${name} will be deleted, Are you sure?`,
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        $.ajax({
+                            url: `@Url.Action("Delete")/${entityId}`,
+                            type: 'post',
+                            success: function (response) {
+                                if (response.error==true) {
+                                    toastr.error(response.message, "Error!");
+                                    return;
+                                }
+                                toastr.success("Successfully", response.message)
+                                $(`tr[data-entity-id=${entityId}]`).remove();
+                            },
+                            error: function (response) {
+                                //toastr["error"]("Unsuccessfully", "Data has not been deleted")
+                            }
+                        })
+                    }
+                });
+        }
+    </script>
 }

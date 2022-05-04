@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Riode.WebUI.AppCode.Modules.ColorModule;
 using Riode.WebUI.Models.DataContexts;
 using Riode.WebUI.Models.Entities;
 
@@ -14,10 +16,12 @@ namespace Riode.WebUI.Areas.Admin.Controllers
     public class ProductSizesController : Controller
     {
         private readonly RiodeDbContext db;
+        private readonly IMediator mediator;
 
-        public ProductSizesController(RiodeDbContext db)
+        public ProductSizesController(RiodeDbContext db,IMediator mediator)
         {
             this.db = db;
+            this.mediator = mediator;
         }
 
         // GET: Admin/ProductSizes
@@ -27,21 +31,23 @@ namespace Riode.WebUI.Areas.Admin.Controllers
         }
 
         // GET: Admin/ProductSizes/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(ColorSingleQuery query)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            var entity = await mediator.Send(query);
+            return View(entity);
+            //if (id == null)
+            //{
+            //    return NotFound();
+            //}
 
-            var productSize = await db.Sizes
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (productSize == null)
-            {
-                return NotFound();
-            }
+            //var productSize = await db.Sizes
+            //    .FirstOrDefaultAsync(m => m.Id == id);
+            //if (productSize == null)
+            //{
+            //    return NotFound();
+            //}
 
-            return View(productSize);
+            //return View(productSize);
         }
 
         // GET: Admin/ProductSizes/Create

@@ -1,6 +1,8 @@
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,15 +36,23 @@ namespace Riode.WebUI
             {
                 cfg.UseSqlServer(configuration.GetConnectionString("cString"));
             });
+
+            services.AddMediatR(this.GetType().Assembly);
+            services.AddTransient<IActionContextAccessor, ActionContextAccessor>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseDeveloperExceptionPage();
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.InitDb();
 
             app.UseEndpoints(cfg =>{
                 cfg.MapAreaControllerRoute(

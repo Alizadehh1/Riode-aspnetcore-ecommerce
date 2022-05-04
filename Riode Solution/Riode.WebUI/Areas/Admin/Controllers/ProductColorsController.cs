@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Riode.WebUI.AppCode.Modules.ColorModule;
 using Riode.WebUI.Models.DataContexts;
 using Riode.WebUI.Models.Entities;
 
@@ -13,149 +15,75 @@ namespace Riode.WebUI.Areas.Admin.Controllers
     [Area("Admin")]
     public class ProductColorsController : Controller
     {
-        private readonly RiodeDbContext db;
+        private readonly IMediator mediator;
 
-        public ProductColorsController(RiodeDbContext db)
+        public ProductColorsController(IMediator mediator)
         {
-            this.db = db;
+            this.mediator = mediator;
         }
-
-        // GET: Admin/ProductColors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(ColorAllQuery query)
         {
-            return View(await db.Colors.ToListAsync());
+            var entity = await mediator.Send(query);
+            return View(entity);
         }
-
-        // GET: Admin/ProductColors/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(ColorSingleQuery query)
         {
-            if (id == null)
+            var entity = await mediator.Send(query);
+            if (entity == null)
             {
                 return NotFound();
             }
 
-            var productColor = await db.Colors
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (productColor == null)
-            {
-                return NotFound();
-            }
-
-            return View(productColor);
+            return View(entity);
         }
-
-        // GET: Admin/ProductColors/Create
         public IActionResult Create()
         {
             return View();
         }
-
-        // POST: Admin/ProductColors/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,HexCode")] ProductColor productColor)
+        public async Task<IActionResult> Create([Bind("Id,Name,HexCode")] ColorCreateCommand command)
         {
             if (ModelState.IsValid)
             {
-                db.Add(productColor);
-                await db.SaveChangesAsync();
+                await mediator.Send(command);
                 return RedirectToAction(nameof(Index));
             }
-            return View(productColor);
+            return View(command);
         }
-
-        // GET: Admin/ProductColors/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(ColorSingleQuery query)
         {
-            if (id == null)
+            var entity = await mediator.Send(query);
+            if (entity==null)
             {
                 return NotFound();
             }
-
-            var productColor = await db.Colors.FindAsync(id);
-            if (productColor == null)
-            {
-                return NotFound();
-            }
-            return View(productColor);
+            var command = new ColorEditCommand();
+            command.Id = entity.Id;
+            command.Name = entity.Name;
+            command.HexCode = entity.HexCode;
+            return View(command);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,HexCode")] ProductColor productColor)
+        public async Task<IActionResult> Edit([FromRoute]int id,ColorEditCommand command)
         {
-            if (id != productColor.Id)
+            if (id != command.Id)
             {
-                return NotFound();
+                return BadRequest();
             }
-
             if (ModelState.IsValid)
             {
-                try
-                {
-                    db.Update(productColor);
-                    await db.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProductColorExists(productColor.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
+                var data = await mediator.Send(command);
                 return RedirectToAction(nameof(Index));
             }
-            return View(productColor);
+            return View(command);
         }
-
-        // GET: Admin/ProductColors/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var productColor = await db.Colors
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (productColor == null)
-            {
-                return NotFound();
-            }
-
-            return View(productColor);
-        }
-
-        // POST: Admin/ProductColors/Delete/5
         [HttpPost]
-        public IActionResult Delete([FromRoute]int id)
+        public async Task<IActionResult> Delete(ColorRemoveCommand command)
         {
-            var entity = db.Colors.FirstOrDefault(c => c.Id == id);
-            if (entity == null)
-            {
-                return Json(new
-                {
-                    error = true,
-                    message = "Movcud deyil"
-                });
-            }
-            db.Colors.Remove(entity);
-            db.SaveChanges();
-            return Json(new
-            {
-                error = false,
-                message = "Ugurla silindi"
-            });
-        }
-
-        private bool ProductColorExists(int id)
-        {
-            return db.Colors.Any(e => e.Id == id);
+            var response = await mediator.Send(command);
+            return Json(response);
         }
     }
 }

@@ -31,7 +31,7 @@
                 <div class="grid-item col-sm-6 col-lg-4 lifestyle shopping winter-sale">
                     <article class="post post-mask gradient">
                         <figure class="post-media overlay-zoom">
-                            <a asp-controller="blog" asp-action="singlepost" asp-route-id="@item.Id">
+                            <a asp-action="singlepost" asp-route-id="@item.Id">
                                 <img src="~/uploads/images/@item.ImagePath" width="380" height="280" alt="post" />
                             </a>
                         </figure>
@@ -71,3 +71,12 @@
         </ul>
     </div>
 </div>
+
+@section css{ 
+    <style>
+        .post-media > a > img{
+            width:380px;
+            height:280px;
+        }
+    </style>
+}

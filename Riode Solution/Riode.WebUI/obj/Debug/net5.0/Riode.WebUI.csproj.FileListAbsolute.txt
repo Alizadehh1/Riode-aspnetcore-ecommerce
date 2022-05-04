@@ -316,7 +316,6 @@ C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Riode.WebUI.TagHelpers.output.cache
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Riode.WebUI.RazorCoreGenerate.cache
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blogs\Create.cshtml.g.cs
-C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blogs\Delete.cshtml.g.cs
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blogs\Details.cshtml.g.cs
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blogs\Edit.cshtml.g.cs
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blogs\Index.cshtml.g.cs
@@ -368,3 +367,18 @@ C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\ref\Riode.WebUI.dll
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Riode.WebUI.pdb
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Riode.WebUI.genruntimeconfig.cache
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Specifications\Create.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Specifications\Delete.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Specifications\Details.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Specifications\Edit.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Specifications\Index.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Contacts\Create.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Contacts\Delete.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Contacts\Details.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Contacts\Edit.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Contacts\Index.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\bin\Debug\net5.0\MediatR.dll
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
