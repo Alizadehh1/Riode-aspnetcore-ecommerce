@@ -82,12 +82,12 @@
             };
             reader.readAsDataURL(file);
         }
-        @*$(document).ready(function () {
-            $('#tags').val([@string.Join(",", Model.TagCloud.Select(tc => tc.PostTagId))])
-        });*@
         $(document).ready(function () {
-            $('#tags').val([1,2,3])
+            $('#tags').val([@string.Join(",", Model.TagCloud.Select(tc => tc.PostTagId))])
         });
+        //$(document).ready(function () {
+        //    $('#tags').val([1,2,3])
+        //});
 
     </script>
 }

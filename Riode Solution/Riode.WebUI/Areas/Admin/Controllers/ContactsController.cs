@@ -20,7 +20,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             this.db = db;
         }
 
-        // GET: Admin/Contacts
         public IActionResult Index()
         {
             var riodeDbContext = db.Contacts.ToList()

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Riode.WebUI.AppCode.Modules.SubscribeModule;
 using Riode.WebUI.Models.DataContexts;
 using Riode.WebUI.Models.Entities;
 using System;
@@ -53,5 +54,16 @@ namespace Riode.WebUI.Controllers
                 message = "Muracietiniz qeyde alindi!"
             });
         }
+        //[HttpPost]
+        //public async Task<IActionResult> Subscribe(SubscribeCreateCommand command)
+        //{
+            
+        //}
+        //[HttpGet]
+        //[Route("/subscribe-confirm")]
+        //public async Task<IActionResult> SubscribeConfirm(string token)
+        //{
+        //    return Json(new { });
+        //}
     }
 }

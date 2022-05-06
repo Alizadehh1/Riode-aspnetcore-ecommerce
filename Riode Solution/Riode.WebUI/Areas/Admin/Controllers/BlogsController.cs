@@ -29,14 +29,12 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             this.mediator = mediator;
         }
 
-        // GET: Admin/Blogs
         public async Task<IActionResult> Index(BlogAllQuery query)
         {
             var entity = await mediator.Send(query);
             return View(entity);
         }
 
-        // GET: Admin/Blogs/Details/5
         public async Task<IActionResult> Details(BlogSingleQuery query)
         {
             var blog = await mediator.Send(query);
@@ -47,7 +45,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(blog);
         }
 
-        // GET: Admin/Blogs/Create
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(db.Categories, "Id", "Name");
@@ -55,9 +52,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View();
         }
 
-        // POST: Admin/Blogs/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(BlogCreateCommand command)
@@ -72,7 +66,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(command);
         }
 
-        // GET: Admin/Blogs/Edit/5
         public async Task<IActionResult> Edit(BlogSingleQuery query)
         {
             var blog = await mediator.Send(query);
@@ -86,7 +79,7 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             command.Paragraph = blog.Paragraph;
             command.ImagePath = blog.ImagePath;
             command.CategoryId = blog.CategoryId;
-
+            command.TagCloud = blog.TagCloud;
             ViewData["TagId"] = new SelectList(db.PostTags, "Id", "Name");
             ViewData["CategoryId"] = new SelectList(db.Categories, "Id", "Name", blog.CategoryId);
             return View(command);
@@ -104,10 +97,9 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             await mediator.Send(command);
             ViewData["TagId"] = new SelectList(db.PostTags, "Id", "Name");
             ViewData["CategoryId"] = new SelectList(db.Categories, "Id", "Name", command.CategoryId);
-            return View(command);
+            return RedirectToAction(nameof(Index));
         }
 
-        // GET: Admin/Blogs/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

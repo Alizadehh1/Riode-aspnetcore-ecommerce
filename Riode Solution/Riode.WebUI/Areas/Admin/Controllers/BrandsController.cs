@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Riode.WebUI.AppCode.Modules.BrandModule;
+using Riode.WebUI.AppCode.Modules.SubscribeModule;
 using Riode.WebUI.Models.DataContexts;
 using Riode.WebUI.Models.Entities;
 
@@ -20,17 +21,18 @@ namespace Riode.WebUI.Areas.Admin.Controllers
         public BrandsController(IMediator mediator)
         {
             this.mediator = mediator;
+            
         }
 
         
         public async Task<IActionResult> Index()
         {
+            var a = await mediator.Send(new SubscribeCreateCommand { Email = "alisal@code.edu.az" });
             var data = await mediator.Send(new BrandsAllQuery());
 
             return View(data);
         }
 
-        // GET: Admin/Brands/Details/5
         public async Task<IActionResult> Details(BrandSingleQuery query)
         {
             var entity = await mediator.Send(query);
@@ -42,7 +44,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(entity);
         }
 
-        // GET: Admin/Brands/Create
         public async Task<IActionResult> Create()
         {
             return View();
@@ -59,7 +60,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(command);
         }
 
-        // GET: Admin/Brands/Edit/5
         public async Task<IActionResult> Edit(BrandSingleQuery query)
         {
             var entity = await mediator.Send(query);
@@ -73,9 +73,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(command);
         }
 
-        // POST: Admin/Brands/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit([FromRoute] int id, BrandEditCommand command)
@@ -99,10 +96,5 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             var response = await mediator.Send(command);
             return Json(response);
         }
-
-        //private bool BrandExists(int id)
-        //{
-        //    return db.Brands.Any(e => e.Id == id);
-        //}
     }
 }

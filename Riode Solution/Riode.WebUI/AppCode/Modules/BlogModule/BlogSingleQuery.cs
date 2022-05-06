@@ -25,6 +25,7 @@ namespace Riode.WebUI.AppCode.Modules.BlogModule
 
                 var blog = await db.Blogs
                     .Include(b => b.Category)
+                    .Include(b=> b.TagCloud)
                     .FirstOrDefaultAsync(m => m.Id == request.Id && m.DeletedById == null, cancellationToken);
 
                 return blog;

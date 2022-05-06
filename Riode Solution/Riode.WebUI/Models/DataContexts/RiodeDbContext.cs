@@ -24,6 +24,7 @@ namespace Riode.WebUI.Models.DataContexts
         public DbSet<PostTag> PostTags { get; set; }
         public DbSet<BlogPostTag> BlogPostTagCloud { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Subscribe> Subscribes { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
