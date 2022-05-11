@@ -33,8 +33,15 @@ using Riode.WebUI.AppCode.Extensions;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\Views\_ViewImports.cshtml"
+using Riode.WebUI.AppCode.Infrastructure;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c5b3ebe5ba1af76f6887f654629ed6384c04f767", @"/Views/Blog/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"caec438b28a60161e2076093ad809a60212424ba", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2101b0187483aa3a7763111b983168134a5bd750", @"/Views/_ViewImports.cshtml")]
     public class Views_Blog_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Blog>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("width", new global::Microsoft.AspNetCore.Html.HtmlString("380"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -111,9 +118,9 @@ using Riode.WebUI.AppCode.Extensions;
 #line hidden
 #nullable disable
             WriteLiteral("                <div class=\"grid-item col-sm-6 col-lg-4 lifestyle shopping winter-sale\">\r\n                    <article class=\"post post-mask gradient\">\r\n                        <figure class=\"post-media overlay-zoom\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5b3ebe5ba1af76f6887f654629ed6384c04f7677924", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5b3ebe5ba1af76f6887f654629ed6384c04f7678159", async() => {
                 WriteLiteral("\r\n                                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c5b3ebe5ba1af76f6887f654629ed6384c04f7678211", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c5b3ebe5ba1af76f6887f654629ed6384c04f7678446", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -186,7 +193,7 @@ WriteAttributeValue("", 2176, item.Id, 2176, 8, false);
 #line hidden
 #nullable disable
             WriteLiteral("</a>\r\n                                | <a class=\"post-comment\"><span>2</span> Comments</a>\r\n                            </div>\r\n                            <h4 class=\"post-title\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5b3ebe5ba1af76f6887f654629ed6384c04f76713238", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5b3ebe5ba1af76f6887f654629ed6384c04f76713473", async() => {
                 WriteLiteral("\r\n                                    ");
 #nullable restore
 #line 45 "C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\Views\Blog\Index.cshtml"
@@ -227,7 +234,7 @@ WriteAttributeValue("", 2176, item.Id, 2176, 8, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </h4>\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5b3ebe5ba1af76f6887f654629ed6384c04f76716080", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5b3ebe5ba1af76f6887f654629ed6384c04f76716315", async() => {
                 WriteLiteral("\r\n                                Read more<i class=\"d-icon-arrow-right\"></i>\r\n                            ");
             }
             );

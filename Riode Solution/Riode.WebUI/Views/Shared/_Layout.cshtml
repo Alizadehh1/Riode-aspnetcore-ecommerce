@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Subscribe
+@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -38,7 +39,7 @@
     <!-- Plugins CSS File -->
     <link rel="stylesheet" type="text/css" href="~/assets/vendor/magnific-popup/magnific-popup.min.css">
     <link rel="stylesheet" type="text/css" href="~/assets/vendor/owl-carousel/owl.carousel.min.css">
-
+    <link href="~/libs/toastr.js/toastr.css" rel="stylesheet" />
     <!-- Main CSS File -->
     @RenderSection("css", required: false)
     <link rel="stylesheet" type="text/css" href="~/assets/css/style.min.css">
@@ -74,10 +75,10 @@
                                     <h4 class="widget-title">Subscribe to our Newsletter</h4>
                                     <p class="mb-0">Get all the latest information, Sales and Offers.</p>
                                 </div>
-                                <form action="#" class="input-wrapper input-wrapper-inline">
-                                    <input type="email" class="form-control" name="email" id="email"
+                                <form method="post" id="subscribeForm" class="input-wrapper input-wrapper-inline">
+                                    <input type="email" class="form-control" asp-for="Email" id="email"
                                            placeholder="Email address here..." required />
-                                    <button class="btn btn-primary btn-rounded btn-md ml-2" type="submit">
+                                    <button id="btnSubs" class="btn btn-primary btn-rounded btn-md ml-2" type="submit">
                                         subscribe<i class="d-icon-arrow-right"></i>
                                     </button>
                                 </form>
@@ -445,7 +446,6 @@
             </div>
         </div>*@
 
-    <!-- Plugins JS File -->
     <script src="~/assets/vendor/jquery/jquery.min.js"></script>
     <script src="~/assets/vendor/elevatezoom/jquery.elevatezoom.min.js"></script>
     <script src="~/assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
@@ -456,23 +456,43 @@
     <script src="~/assets/vendor/jquery.plugin/jquery.plugin.min.js"></script>
     <script src="~/assets/vendor/jquery.countdown/jquery.countdown.min.js"></script>
     <!-- Main JS File -->
+    <script src="~/libs/toastr.js/toastr.min.js"></script>
     <script src="~/assets/js/main.min.js"></script>
-
+    <script src="~/admin/files/assets/js/customize.js"></script>
 
     <script>
-                //$(document).ready(function () {
-
-
-                //    $.ajax({
-                //        type: "POST",
-                //        url: "https://localhost:44397/home/contact",
-                //        success: function (response) {
-                //            console.log(response);
-                //        }
-                //    });
-
-
-                //});
+        let btn = document.getElementById('btnSubs');
+        $(document).ready(function () {
+            $('#subscribeForm').submit(function (e) {
+                e.preventDefault();
+                let formData = new FormData(e.currentTarget);
+                btn.disabled = true;
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("Subscribe", "Home")",
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function (response) {
+                        if (response.error == true) {
+                            e.currentTarget.reset();
+                            btn.disabled = false;
+                            toastr.error(response.message, 'Texniki xeta bash verdi!');
+                            return;
+                        }
+                        e.currentTarget.reset();
+                        btn.disabled = false;
+                        toastr.success(response.message, 'Subscribe confirmation sended to your mail');
+                    },
+                    error: function (response) {
+                        toastr.error(response.message, "Texniki Xeta!");
+                        btn.disabled = false;
+                    }
+                    
+                });
+            });
+                
+        });
     </script>
     @RenderSection("js", required: false)
 </body>

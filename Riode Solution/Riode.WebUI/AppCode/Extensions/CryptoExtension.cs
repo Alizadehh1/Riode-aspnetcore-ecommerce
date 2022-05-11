@@ -75,6 +75,8 @@ namespace Riode.WebUI.AppCode.Extensions
         }
         public static string Decrypt(this string text, string key)
         {
+            if (string.IsNullOrWhiteSpace(text))
+                text = text.Replace("+", " ");
             try
             {
                 using (var ms = new MemoryStream())

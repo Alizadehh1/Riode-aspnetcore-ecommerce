@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Riode.WebUI.AppCode.Modules.SubscribeModule;
 using Riode.WebUI.Models.DataContexts;
@@ -13,9 +14,11 @@ namespace Riode.WebUI.Controllers
     public class HomeController : Controller
     {
         readonly RiodeDbContext db;
-        public HomeController(RiodeDbContext db)
+        readonly IMediator mediator;
+        public HomeController(RiodeDbContext db,IMediator mediator)
         {
             this.db = db;
+            this.mediator = mediator;
         }
         public IActionResult Index()
         {
@@ -54,16 +57,20 @@ namespace Riode.WebUI.Controllers
                 message = "Muracietiniz qeyde alindi!"
             });
         }
-        //[HttpPost]
-        //public async Task<IActionResult> Subscribe(SubscribeCreateCommand command)
-        //{
-            
-        //}
-        //[HttpGet]
-        //[Route("/subscribe-confirm")]
-        //public async Task<IActionResult> SubscribeConfirm(string token)
-        //{
-        //    return Json(new { });
-        //}
+
+        [HttpPost]
+        public async Task<IActionResult> Subscribe(SubscribeCreateCommand command)
+        {
+            var response = await mediator.Send(command);
+            return Json(response);
+        }
+        [HttpGet]
+        [Route("/subscribe-confirm")]
+        public async Task<IActionResult> SubscribeConfirm(SubscribeConfirmCommand command)
+        {
+            var response = await mediator.Send(command);
+
+            return View(response);
+        }
     }
 }

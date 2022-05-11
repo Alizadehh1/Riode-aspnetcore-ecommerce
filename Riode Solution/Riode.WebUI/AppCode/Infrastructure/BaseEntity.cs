@@ -11,7 +11,7 @@ namespace Riode.WebUI.AppCode.Infrastructure
         public int? CreatedById { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow.AddHours(4);
         public int? DeletedById { get; set; }
-        public DateTime? DeletedDate { get; set; } = DateTime.UtcNow.AddHours(4);
+        public DateTime? DeletedDate { get; set; }
 
     }
 }

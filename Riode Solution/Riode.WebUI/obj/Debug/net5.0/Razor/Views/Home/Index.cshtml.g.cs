@@ -33,8 +33,15 @@ using Riode.WebUI.AppCode.Extensions;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\Views\_ViewImports.cshtml"
+using Riode.WebUI.AppCode.Infrastructure;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5854e0ab99feff89117691e8198769d0d7475e1d", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"caec438b28a60161e2076093ad809a60212424ba", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2101b0187483aa3a7763111b983168134a5bd750", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/assets/images/demos/demo23/slides/1.jpg"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -157,7 +164,7 @@ using Riode.WebUI.AppCode.Extensions;
         <div class=""intro-slide1 banner banner-fixed"" style=""background-color: #f0f0f0"">
             <figure>
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d33364", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d33599", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -185,7 +192,7 @@ using Riode.WebUI.AppCode.Extensions;
                             Lifestyle<br />Collection
                         </h3>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d35321", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d35556", async() => {
                 WriteLiteral("\r\n                            Shop\r\n                            now <i class=\"d-icon-arrow-right\"></i>\r\n                        ");
             }
             );
@@ -201,7 +208,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"intro-slide2 banner banner-fixed\" style=\"background-color: #ececf3\">\r\n            <figure>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d36842", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d37077", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -229,7 +236,7 @@ using Riode.WebUI.AppCode.Extensions;
                             5
                         </h3>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d38720", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d38955", async() => {
                 WriteLiteral("\r\n                            Shop\r\n                            now <i class=\"d-icon-arrow-right\"></i>\r\n                        ");
             }
             );
@@ -259,7 +266,7 @@ using Riode.WebUI.AppCode.Extensions;
                      data-relative=""true"" data-compact=""true"">00:00:00</div>
             </div>
             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d40726", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d40961", async() => {
                 WriteLiteral("View All Products<i class=\"d-icon-arrow-right\"></i>");
             }
             );
@@ -299,9 +306,9 @@ using Riode.WebUI.AppCode.Extensions;
             <div class=""product text-center"">
                 <figure class=""product-media"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d42863", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d43098", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d43143", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d43378", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -318,7 +325,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d44519", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d44754", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -348,7 +355,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d46798", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d47033", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -367,7 +374,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d48256", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d48491", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -384,7 +391,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d49692", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d49927", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -401,7 +408,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d51125", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d51360", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -416,7 +423,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d52310", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d52545", async() => {
                 WriteLiteral("Modern Fashionale Bag");
             }
             );
@@ -441,7 +448,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d53892", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d54127", async() => {
                 WriteLiteral("( 2 )");
             }
             );
@@ -457,9 +464,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"product text-center\">\r\n                <figure class=\"product-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d55253", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d55488", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d55533", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d55768", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -476,7 +483,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d56910", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d57145", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -506,7 +513,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d59189", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d59424", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -525,7 +532,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d60647", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d60882", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -542,7 +549,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d62083", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d62318", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -559,7 +566,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d63516", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d63751", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -574,7 +581,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d64701", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d64936", async() => {
                 WriteLiteral("Comfor Sandle");
             }
             );
@@ -599,7 +606,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d66275", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d66510", async() => {
                 WriteLiteral("( 3 )");
             }
             );
@@ -615,9 +622,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"product text-center\">\r\n                <figure class=\"product-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d67636", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d67871", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d67916", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d68151", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -634,7 +641,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d69293", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d69528", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -664,7 +671,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d71572", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d71807", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -683,7 +690,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d73030", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d73265", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -700,7 +707,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d74466", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d74701", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -717,7 +724,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d75899", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d76134", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -732,7 +739,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d77084", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d77319", async() => {
                 WriteLiteral("Super Pixel Camera");
             }
             );
@@ -757,7 +764,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d78663", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d78898", async() => {
                 WriteLiteral("( 4 )");
             }
             );
@@ -773,9 +780,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"product text-center\">\r\n                <figure class=\"product-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d80024", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d80259", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d80304", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d80539", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -792,7 +799,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d81681", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d81916", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -822,7 +829,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d83960", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d84195", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -841,7 +848,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d85418", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d85653", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -858,7 +865,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d86854", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d87089", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -875,7 +882,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d88287", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d88522", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -890,7 +897,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d89472", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d89707", async() => {
                 WriteLiteral("Modern Vaccum Machine");
             }
             );
@@ -915,7 +922,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d91054", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d91289", async() => {
                 WriteLiteral("( 3 )");
             }
             );
@@ -931,9 +938,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"product text-center\">\r\n                <figure class=\"product-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d92415", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d92650", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d92695", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d92930", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -950,7 +957,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d94072", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d94307", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -980,7 +987,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d96351", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d96586", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -999,7 +1006,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d97809", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d98044", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -1016,7 +1023,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d99245", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d99480", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -1033,7 +1040,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d100678", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d100913", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -1048,7 +1055,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d101864", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d102099", async() => {
                 WriteLiteral("Tiny Casual Audio");
             }
             );
@@ -1073,7 +1080,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d103443", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d103678", async() => {
                 WriteLiteral("( 4 )");
             }
             );
@@ -1116,7 +1123,7 @@ using Riode.WebUI.AppCode.Extensions;
                     }"">
             <div class=""category category-group-icon appear-animate"" style=""background-color");
             WriteLiteral(": #4b5577\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d105699", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d105934", async() => {
                 WriteLiteral(@"
                     <figure class=""category-media"">
                         <i class=""d-icon-t-shirt1"" style=""font-size: 6.8rem; margin: 0 0 1.4rem;""></i>
@@ -1137,7 +1144,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                <div class=\"category-content\">\r\n                    <ul class=\"category-list\">\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d107262", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d107497", async() => {
                 WriteLiteral("Hats");
             }
             );
@@ -1152,7 +1159,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d108370", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d108605", async() => {
                 WriteLiteral("Men\'s Necklace");
             }
             );
@@ -1167,7 +1174,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d109489", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d109724", async() => {
                 WriteLiteral("Pendant");
             }
             );
@@ -1182,7 +1189,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d110600", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d110835", async() => {
                 WriteLiteral("Shirts");
             }
             );
@@ -1197,7 +1204,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d111710", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d111945", async() => {
                 WriteLiteral("Traveller");
             }
             );
@@ -1212,7 +1219,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d112823", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d113058", async() => {
                 WriteLiteral("Trousers");
             }
             );
@@ -1227,7 +1234,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"category category-group-icon appear-animate\" style=\"background-color: #6d52af\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d114111", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d114346", async() => {
                 WriteLiteral("\r\n                    <figure class=\"category-media\">\r\n                        <i class=\"d-icon-basketball2\"></i>\r\n                    </figure>\r\n                    <h4 class=\"category-name\">Sporting Goods</h4>\r\n                ");
             }
             );
@@ -1242,7 +1249,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                <div class=\"category-content\">\r\n                    <ul class=\"category-list\">\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d115559", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d115794", async() => {
                 WriteLiteral("Caps");
             }
             );
@@ -1257,7 +1264,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d116667", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d116902", async() => {
                 WriteLiteral("Shoes");
             }
             );
@@ -1272,7 +1279,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d117776", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d118011", async() => {
                 WriteLiteral("Ski Accessories");
             }
             );
@@ -1287,7 +1294,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d118895", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d119130", async() => {
                 WriteLiteral("Sport balls");
             }
             );
@@ -1302,7 +1309,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d120010", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d120245", async() => {
                 WriteLiteral("Sportswear");
             }
             );
@@ -1317,7 +1324,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d121124", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d121359", async() => {
                 WriteLiteral("Watches");
             }
             );
@@ -1332,7 +1339,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"category category-group-icon appear-animate\" style=\"background-color: #3366cc\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d122411", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d122646", async() => {
                 WriteLiteral("\r\n                    <figure class=\"category-media\">\r\n                        <i class=\"d-icon-backpack\"></i>\r\n                    </figure>\r\n                    <h4 class=\"category-name\">Bag &amp; Backpack</h4>\r\n                ");
             }
             );
@@ -1347,7 +1354,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                <div class=\"category-content\">\r\n                    <ul class=\"category-list\">\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d123860", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d124095", async() => {
                 WriteLiteral("Backpack");
             }
             );
@@ -1362,7 +1369,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d124972", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d125207", async() => {
                 WriteLiteral("Fashion");
             }
             );
@@ -1377,7 +1384,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d126083", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d126318", async() => {
                 WriteLiteral("Handbag");
             }
             );
@@ -1392,7 +1399,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d127194", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d127429", async() => {
                 WriteLiteral("Purse bag");
             }
             );
@@ -1407,7 +1414,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d128307", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d128542", async() => {
                 WriteLiteral("Sale");
             }
             );
@@ -1422,7 +1429,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d129415", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d129650", async() => {
                 WriteLiteral("Travel Bag");
             }
             );
@@ -1445,7 +1452,7 @@ using Riode.WebUI.AppCode.Extensions;
     <section class=""product-wrapper container mt-10 pt-6"">
         <h2 class=""title title-simple text-left with-link"">
             Sporting Goods");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d130754", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d130989", async() => {
                 WriteLiteral("\r\n                View All\r\n                Products<i class=\"d-icon-arrow-right\"></i>\r\n            ");
             }
             );
@@ -1460,7 +1467,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </h2>\r\n        <div class=\"product-grid row gutter-sm\">\r\n            <div class=\"height-x2\">\r\n                <div class=\"banner banner-fixed\">\r\n                    <figure>\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d132156", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d132391", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1487,7 +1494,7 @@ using Riode.WebUI.AppCode.Extensions;
                         </h4>
                         <h3 class=""banner-title ls-s font-weight-bold"">Discover Our Ski<br />Equipments</h3>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d133983", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d134218", async() => {
                 WriteLiteral("\r\n                            Shop now <i class=\"d-icon-arrow-right\"></i>\r\n                        ");
             }
             );
@@ -1503,9 +1510,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"height-x1 appear-animate\">\r\n                <div class=\"product text-center\">\r\n                    <figure class=\"product-media\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d135512", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d135747", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d135797", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d136032", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1535,7 +1542,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d138089", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d138324", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -1554,7 +1561,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d139620", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d139855", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -1571,7 +1578,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d141077", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d141312", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -1588,7 +1595,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d142531", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d142766", async() => {
                 WriteLiteral("Advanced Headphone");
             }
             );
@@ -1613,7 +1620,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d144151", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d144386", async() => {
                 WriteLiteral("( 1 )");
             }
             );
@@ -1637,9 +1644,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d145600", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d145835", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d145885", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d146120", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1669,7 +1676,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d148177", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d148412", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -1688,7 +1695,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d149708", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d149943", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -1705,7 +1712,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d151165", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d151400", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -1722,7 +1729,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d152619", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d152854", async() => {
                 WriteLiteral("Black Basketball");
             }
             );
@@ -1747,7 +1754,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d154237", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d154472", async() => {
                 WriteLiteral("( 4 )");
             }
             );
@@ -1771,9 +1778,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d155686", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d155921", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d155971", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d156206", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1803,7 +1810,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d158263", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d158498", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -1822,7 +1829,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d159794", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d160029", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -1839,7 +1846,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d161251", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d161486", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -1856,7 +1863,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d162705", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d162940", async() => {
                 WriteLiteral("Comfor Sandle");
             }
             );
@@ -1881,7 +1888,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d164320", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d164555", async() => {
                 WriteLiteral("( 2 )");
             }
             );
@@ -1905,9 +1912,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d165769", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d166004", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d166054", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d166289", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1937,7 +1944,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d168346", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d168581", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -1956,7 +1963,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d169877", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d170112", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -1973,7 +1980,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d171334", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d171569", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -1990,7 +1997,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d172788", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d173023", async() => {
                 WriteLiteral("Comfortable Audio");
             }
             );
@@ -2015,7 +2022,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d174407", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d174642", async() => {
                 WriteLiteral("( 1 )");
             }
             );
@@ -2039,9 +2046,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d175856", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d176091", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d176141", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d176376", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2071,7 +2078,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d178433", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d178668", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -2090,7 +2097,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d179964", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d180199", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -2107,7 +2114,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d181421", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d181656", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -2124,7 +2131,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d182875", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d183110", async() => {
                 WriteLiteral("Converse Blue Training Shoes");
             }
             );
@@ -2149,7 +2156,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d184505", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d184740", async() => {
                 WriteLiteral("( 1 )");
             }
             );
@@ -2173,9 +2180,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d185954", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d186189", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d186239", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d186474", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2205,7 +2212,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d188531", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d188766", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -2224,7 +2231,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d190062", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d190297", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -2241,7 +2248,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d191519", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d191754", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -2258,7 +2265,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d192973", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d193208", async() => {
                 WriteLiteral("Converse Kids Star Suede Shoes");
             }
             );
@@ -2283,7 +2290,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d194605", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d194840", async() => {
                 WriteLiteral("( 2 )");
             }
             );
@@ -2307,9 +2314,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d196054", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d196289", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d196339", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d196574", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2339,7 +2346,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d198631", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d198866", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -2358,7 +2365,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d200162", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d200397", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -2375,7 +2382,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d201619", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d201854", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -2392,7 +2399,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d203073", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d203308", async() => {
                 WriteLiteral("Ski shoes");
             }
             );
@@ -2417,7 +2424,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d204684", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d204919", async() => {
                 WriteLiteral("( )");
             }
             );
@@ -2441,9 +2448,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d206131", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d206366", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d206416", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d206651", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2473,7 +2480,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d208708", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d208943", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -2492,7 +2499,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d210239", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d210474", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -2509,7 +2516,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d211696", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d211931", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -2526,7 +2533,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d213150", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d213385", async() => {
                 WriteLiteral("Perfect trainer");
             }
             );
@@ -2551,7 +2558,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d214767", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d215002", async() => {
                 WriteLiteral("( 2 )");
             }
             );
@@ -2577,7 +2584,7 @@ using Riode.WebUI.AppCode.Extensions;
         <div class=""banner1 banner"" style=""background-color: #27272c;"">
             <figure>
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d216219", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d216454", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2603,7 +2610,7 @@ using Riode.WebUI.AppCode.Extensions;
                         Season's
                     </h3>
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d217930", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d218165", async() => {
                 WriteLiteral("\r\n                        Shop\r\n                        now <i class=\"d-icon-arrow-right\"></i>\r\n                    ");
             }
             );
@@ -2619,7 +2626,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n    <section class=\"product-wrapper container mt-10 pt-5\">\r\n        <h2 class=\"title title-simple with-link\">\r\n            Electronics");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d219435", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d219670", async() => {
                 WriteLiteral("\r\n                View All Products<i class=\"d-icon-arrow-right\"></i>\r\n            ");
             }
             );
@@ -2634,7 +2641,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </h2>\r\n        <div class=\"product-grid row gutter-sm\">\r\n            <div class=\"height-x2\">\r\n                <div class=\"banner banner-fixed\">\r\n                    <figure>\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d220818", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d221053", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2661,7 +2668,7 @@ using Riode.WebUI.AppCode.Extensions;
                             Mi Smart Band 5C
                         </h3>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d222654", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d222889", async() => {
                 WriteLiteral("\r\n                            Shop now <i class=\"d-icon-arrow-right\"></i>\r\n                        ");
             }
             );
@@ -2677,9 +2684,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"height-x1 appear-animate\">\r\n                <div class=\"product text-center\">\r\n                    <figure class=\"product-media\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d224183", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d224418", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d224468", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d224703", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2709,7 +2716,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d226760", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d226995", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -2728,7 +2735,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d228291", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d228526", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -2745,7 +2752,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d229748", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d229983", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -2762,7 +2769,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d231202", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d231437", async() => {
                 WriteLiteral("Canon Digital Speaker");
             }
             );
@@ -2787,7 +2794,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d232825", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d233060", async() => {
                 WriteLiteral("( 5 )");
             }
             );
@@ -2811,9 +2818,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d234274", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d234509", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d234559", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d234794", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2843,7 +2850,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d236851", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d237086", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -2862,7 +2869,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d238382", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d238617", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -2879,7 +2886,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d239839", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d240074", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -2896,7 +2903,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d241293", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d241528", async() => {
                 WriteLiteral("XP Digital Watch");
             }
             );
@@ -2921,7 +2928,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d242911", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d243146", async() => {
                 WriteLiteral("( 6 )");
             }
             );
@@ -2945,9 +2952,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d244360", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d244595", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d244645", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d244880", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -2977,7 +2984,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d246937", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d247172", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -2996,7 +3003,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d248468", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d248703", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -3013,7 +3020,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d249925", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d250160", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -3030,7 +3037,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d251379", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d251614", async() => {
                 WriteLiteral("Game Controller");
             }
             );
@@ -3055,7 +3062,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d252996", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d253231", async() => {
                 WriteLiteral("( 4 )");
             }
             );
@@ -3079,9 +3086,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d254445", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d254680", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d254730", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d254965", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -3111,7 +3118,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d257022", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d257257", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -3130,7 +3137,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d258553", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d258788", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -3147,7 +3154,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d260010", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d260245", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -3164,7 +3171,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d261464", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d261699", async() => {
                 WriteLiteral("High Capacity Recharge");
             }
             );
@@ -3189,7 +3196,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d263088", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d263323", async() => {
                 WriteLiteral("( 3 )");
             }
             );
@@ -3213,9 +3220,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d264537", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d264772", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d264822", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d265057", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -3245,7 +3252,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d267114", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d267349", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -3264,7 +3271,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d268645", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d268880", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -3281,7 +3288,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d270102", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d270337", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -3298,7 +3305,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d271556", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d271791", async() => {
                 WriteLiteral("Nikos Digital Camera");
             }
             );
@@ -3323,7 +3330,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d273178", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d273413", async() => {
                 WriteLiteral("( 5 )");
             }
             );
@@ -3347,9 +3354,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d274627", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d274862", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d274912", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d275147", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -3379,7 +3386,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d277204", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d277439", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -3398,7 +3405,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d278735", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d278970", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -3415,7 +3422,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d280192", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d280427", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -3432,7 +3439,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d281646", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d281881", async() => {
                 WriteLiteral("Sport Watch");
             }
             );
@@ -3457,7 +3464,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d283259", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d283494", async() => {
                 WriteLiteral("( 3 )");
             }
             );
@@ -3481,9 +3488,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d284708", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d284943", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d284993", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d285228", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -3513,7 +3520,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d287285", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d287520", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -3532,7 +3539,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d288816", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d289051", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -3549,7 +3556,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d290273", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d290508", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -3566,7 +3573,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d291727", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d291962", async() => {
                 WriteLiteral("Super Sound Audio");
             }
             );
@@ -3591,7 +3598,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d293346", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d293581", async() => {
                 WriteLiteral("( 1 )");
             }
             );
@@ -3615,9 +3622,9 @@ using Riode.WebUI.AppCode.Extensions;
                 <div class=""product text-center"">
                     <figure class=""product-media"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d294795", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d295030", async() => {
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d295080", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d295315", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -3647,7 +3654,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"product-action-vertical\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d297372", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d297607", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-bag\"></i>\r\n                            ");
             }
             );
@@ -3666,7 +3673,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d298903", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d299138", async() => {
                 WriteLiteral("\r\n                                <i class=\"d-icon-heart\"></i>\r\n                            ");
             }
             );
@@ -3683,7 +3690,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                        <div class=\"product-action\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d300360", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d300595", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -3700,7 +3707,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </figure>\r\n                    <div class=\"product-details\">\r\n                        <h3 class=\"product-name\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d301814", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d302049", async() => {
                 WriteLiteral("Water Proof Tablet");
             }
             );
@@ -3725,7 +3732,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""tooltiptext tooltip-top""></span>
                             </div>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d303433", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d303668", async() => {
                 WriteLiteral("( 1 )");
             }
             );
@@ -3751,7 +3758,7 @@ using Riode.WebUI.AppCode.Extensions;
         <div class=""banner1 banner"" style=""background-color: #27272c;"">
             <figure>
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d304885", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d305120", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -3776,7 +3783,7 @@ using Riode.WebUI.AppCode.Extensions;
                         Latest Power Bank
                     </h3>
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d306580", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d306815", async() => {
                 WriteLiteral("\r\n                        Shop\r\n                        now <i class=\"d-icon-arrow-right\"></i>\r\n                    ");
             }
             );
@@ -3792,7 +3799,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n    <section class=\"product-wrapper container mt-10 pt-5 appear-animate\">\r\n        <h2 class=\"title title-simple text-left with-link\">\r\n            Our Featured");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d308111", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d308346", async() => {
                 WriteLiteral("\r\n                View All\r\n                Products<i class=\"d-icon-arrow-right\"></i>\r\n            ");
             }
             );
@@ -3831,9 +3838,9 @@ using Riode.WebUI.AppCode.Extensions;
             <div class=""product text-center"">
                 <figure class=""product-media"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d310220", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d310455", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d310501", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d310736", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -3850,7 +3857,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d311879", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d312114", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -3880,7 +3887,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d314159", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d314394", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -3899,7 +3906,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d315618", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d315853", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -3916,7 +3923,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d317055", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d317290", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -3933,7 +3940,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d318489", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d318724", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -3948,7 +3955,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d319675", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d319910", async() => {
                 WriteLiteral("Fashion Twin Phone");
             }
             );
@@ -3973,7 +3980,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d321255", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d321490", async() => {
                 WriteLiteral("( 3 )");
             }
             );
@@ -3989,9 +3996,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"product text-center\">\r\n                <figure class=\"product-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d322617", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d322852", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d322898", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d323133", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4008,7 +4015,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d324276", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d324511", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4038,7 +4045,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d326556", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d326791", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -4057,7 +4064,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d328015", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d328250", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -4074,7 +4081,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d329452", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d329687", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -4091,7 +4098,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d330886", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d331121", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -4106,7 +4113,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d332072", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d332307", async() => {
                 WriteLiteral("Tiny Casual Audio");
             }
             );
@@ -4131,7 +4138,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d333651", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d333886", async() => {
                 WriteLiteral("( 5 )");
             }
             );
@@ -4147,9 +4154,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"product text-center\">\r\n                <figure class=\"product-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d335013", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d335248", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d335294", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d335529", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4166,7 +4173,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d336672", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d336907", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4196,7 +4203,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d338952", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d339187", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -4215,7 +4222,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d340411", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d340646", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -4232,7 +4239,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d341848", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d342083", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -4249,7 +4256,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d343282", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d343517", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -4264,7 +4271,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d344468", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d344703", async() => {
                 WriteLiteral("Multi-Functional Phone");
             }
             );
@@ -4289,7 +4296,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d346052", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d346287", async() => {
                 WriteLiteral("( 1 )");
             }
             );
@@ -4305,9 +4312,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"product text-center\">\r\n                <figure class=\"product-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d347414", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d347649", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d347695", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d347930", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4324,7 +4331,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d349073", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d349308", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4354,7 +4361,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d351353", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d351588", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -4373,7 +4380,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d352812", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d353047", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -4390,7 +4397,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d354249", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d354484", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -4407,7 +4414,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d355683", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d355918", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -4422,7 +4429,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d356869", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d357104", async() => {
                 WriteLiteral("Tv Controller");
             }
             );
@@ -4447,7 +4454,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d358444", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d358679", async() => {
                 WriteLiteral("( 6 )");
             }
             );
@@ -4463,9 +4470,9 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"product text-center\">\r\n                <figure class=\"product-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d359806", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d360041", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d360087", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d360322", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4482,7 +4489,7 @@ using Riode.WebUI.AppCode.Extensions;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d361465", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5854e0ab99feff89117691e8198769d0d7475e1d361700", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4512,7 +4519,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"product-action-vertical\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d363745", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d363980", async() => {
                 WriteLiteral("<i class=\"d-icon-bag\"></i>");
             }
             );
@@ -4531,7 +4538,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d365204", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d365439", async() => {
                 WriteLiteral("\r\n                            <i class=\"d-icon-heart\"></i>\r\n                        ");
             }
             );
@@ -4548,7 +4555,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <div class=\"product-action\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d366641", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d366876", async() => {
                 WriteLiteral("Quick View");
             }
             );
@@ -4565,7 +4572,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                </figure>\r\n                <div class=\"product-details\">\r\n                    <div class=\"product-cat\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d368075", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d368310", async() => {
                 WriteLiteral("categories");
             }
             );
@@ -4580,7 +4587,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"product-name\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d369261", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d369496", async() => {
                 WriteLiteral("Fashionable Brown Denim Shoes");
             }
             );
@@ -4605,7 +4612,7 @@ using Riode.WebUI.AppCode.Extensions;
                             <span class=""tooltiptext tooltip-top""></span>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d370852", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d371087", async() => {
                 WriteLiteral("( 7 )");
             }
             );
@@ -4649,9 +4656,9 @@ using Riode.WebUI.AppCode.Extensions;
                     }"">
      ");
             WriteLiteral("       <div class=\"post overlay-zoom appear-animate overlay-dark\" data-animation-options=\"{\r\n                            \'name\': \'zoomInShorter\'\r\n                        }\">\r\n                <figure class=\"post-media\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d373331", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d373566", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d373612", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d373847", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4681,7 +4688,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </figure>\r\n                <div class=\"post-details\">\r\n                    <div class=\"post-meta\">\r\n                        on ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d375957", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d376192", async() => {
                 WriteLiteral("September 6, 2020");
             }
             );
@@ -4697,7 +4704,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        &nbsp;|&nbsp; ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d377168", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d377403", async() => {
                 WriteLiteral("\r\n                            <span>1</span>\r\n                            Comments\r\n                        ");
             }
             );
@@ -4713,7 +4720,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"post-title\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d378513", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d378748", async() => {
                 WriteLiteral("Complete Set Of Ski Tools.");
             }
             );
@@ -4728,7 +4735,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</h3>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d379636", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d379871", async() => {
                 WriteLiteral("\r\n                        Read More<i class=\"d-icon-arrow-right\"></i>\r\n                    ");
             }
             );
@@ -4752,9 +4759,9 @@ using Riode.WebUI.AppCode.Extensions;
                         }"">
                 <figure class=""post-media"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d381228", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d381463", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d381509", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d381744", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4784,7 +4791,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </figure>\r\n                <div class=\"post-details\">\r\n                    <div class=\"post-meta\">\r\n                        on ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d383854", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d384089", async() => {
                 WriteLiteral("September 6, 2020");
             }
             );
@@ -4800,7 +4807,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        &nbsp;|&nbsp; ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d385065", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d385300", async() => {
                 WriteLiteral("\r\n                            <span>1</span>\r\n                            Comments\r\n                        ");
             }
             );
@@ -4816,7 +4823,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"post-title\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d386410", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d386645", async() => {
                 WriteLiteral("Utaliquam sollicitudin leo.");
             }
             );
@@ -4831,7 +4838,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</h3>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d387534", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d387769", async() => {
                 WriteLiteral("\r\n                        Read More<i class=\"d-icon-arrow-right\"></i>\r\n                    ");
             }
             );
@@ -4855,9 +4862,9 @@ using Riode.WebUI.AppCode.Extensions;
                         }"">
                 <figure class=""post-media"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d389126", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d389361", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d389407", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d389642", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4887,7 +4894,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </figure>\r\n                <div class=\"post-details\">\r\n                    <div class=\"post-meta\">\r\n                        on ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d391752", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d391987", async() => {
                 WriteLiteral("September 6, 2020");
             }
             );
@@ -4903,7 +4910,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        &nbsp;|&nbsp; ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d392963", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d393198", async() => {
                 WriteLiteral("\r\n                            <span>1</span>\r\n                            Comments\r\n                        ");
             }
             );
@@ -4919,7 +4926,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"post-title\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d394308", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d394543", async() => {
                 WriteLiteral("Fusce pellentesque suscipit.");
             }
             );
@@ -4934,7 +4941,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</h3>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d395433", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d395668", async() => {
                 WriteLiteral("\r\n                        Read More<i class=\"d-icon-arrow-right\"></i>\r\n                    ");
             }
             );
@@ -4958,9 +4965,9 @@ using Riode.WebUI.AppCode.Extensions;
                         }"">
                 <figure class=""post-media"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d397025", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d397260", async() => {
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d397306", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5854e0ab99feff89117691e8198769d0d7475e1d397541", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -4990,7 +4997,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </figure>\r\n                <div class=\"post-details\">\r\n                    <div class=\"post-meta\">\r\n                        on ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d399651", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d399886", async() => {
                 WriteLiteral("September 6, 2020");
             }
             );
@@ -5006,7 +5013,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        &nbsp;|&nbsp; ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d400862", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d401097", async() => {
                 WriteLiteral("\r\n                            <span>1</span>\r\n                            Comments\r\n                        ");
             }
             );
@@ -5022,7 +5029,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </div>\r\n                    <h3 class=\"post-title\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d402207", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d402442", async() => {
                 WriteLiteral("Utaliquam sollicitudin leo");
             }
             );
@@ -5037,7 +5044,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</h3>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d403330", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5854e0ab99feff89117691e8198769d0d7475e1d403565", async() => {
                 WriteLiteral("\r\n                        Read More<i class=\"d-icon-arrow-right\"></i>\r\n                    ");
             }
             );

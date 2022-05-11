@@ -33,8 +33,15 @@ using Riode.WebUI.AppCode.Extensions;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\Views\_ViewImports.cshtml"
+using Riode.WebUI.AppCode.Infrastructure;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55", @"/Views/Shared/_Navbar.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"caec438b28a60161e2076093ad809a60212424ba", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2101b0187483aa3a7763111b983168134a5bd750", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Navbar : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -140,7 +147,7 @@ using Riode.WebUI.AppCode.Extensions;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<nav class=\"main-nav ml-0\">\r\n    <ul class=\"menu\">\r\n        <li class=\"active\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5531552", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5531787", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -158,7 +165,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </li>\r\n        <li>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5532957", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5533192", async() => {
                 WriteLiteral("Shop");
             }
             );
@@ -176,7 +183,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </li>\r\n        <li>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5534362", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5534597", async() => {
                 WriteLiteral("Categories");
             }
             );
@@ -197,7 +204,7 @@ using Riode.WebUI.AppCode.Extensions;
                         <h4 class=""menu-title"">Variations 1</h4>
                         <ul>
                             <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5535716", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5535951", async() => {
                 WriteLiteral("Banner With Sidebar");
             }
             );
@@ -212,7 +219,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5536842", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5537077", async() => {
                 WriteLiteral("Boxed Banner");
             }
             );
@@ -227,7 +234,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5537961", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5538196", async() => {
                 WriteLiteral("Infinite Ajaxscroll");
             }
             );
@@ -242,7 +249,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5539123", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5539358", async() => {
                 WriteLiteral("Horizontal Filter");
             }
             );
@@ -257,7 +264,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </li>\r\n                            <li>\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5540315", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5540550", async() => {
                 WriteLiteral("\r\n                                    Navigation Filter<span class=\"tip tip-hot\">Hot</span>\r\n                                ");
             }
             );
@@ -272,7 +279,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </li>\r\n\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5541589", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5541824", async() => {
                 WriteLiteral("Off-Canvas Filter");
             }
             );
@@ -287,7 +294,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5542713", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5542948", async() => {
                 WriteLiteral("Right Toggle Sidebar");
             }
             );
@@ -310,7 +317,7 @@ using Riode.WebUI.AppCode.Extensions;
 
                             <li>
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5544103", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5544338", async() => {
                 WriteLiteral("\r\n                                    3 Columns Mode<span class=\"tip tip-new\">New</span>\r\n                                ");
             }
             );
@@ -325,7 +332,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5545371", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5545606", async() => {
                 WriteLiteral("4 Columns Mode");
             }
             );
@@ -340,7 +347,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5546493", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5546728", async() => {
                 WriteLiteral("5 Columns Mode");
             }
             );
@@ -355,7 +362,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5547615", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5547850", async() => {
                 WriteLiteral("6 Columns Mode");
             }
             );
@@ -370,7 +377,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5548737", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5548972", async() => {
                 WriteLiteral("7 Columns Mode");
             }
             );
@@ -385,7 +392,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5549859", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5550094", async() => {
                 WriteLiteral("8 Columns Mode");
             }
             );
@@ -400,7 +407,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5550981", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5551216", async() => {
                 WriteLiteral("List Mode");
             }
             );
@@ -415,7 +422,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        </ul>\r\n                    </div>\r\n                    <div class=\"col-6 col-sm-4 col-md-3 col-lg-4 menu-banner menu-banner1 banner banner-fixed\">\r\n                        <figure>\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5552310", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5552545", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -441,7 +448,7 @@ using Riode.WebUI.AppCode.Extensions;
                                 <span class=""text-uppercase"">Up to</span>70% Off
                             </h3>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5554079", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5554314", async() => {
                 WriteLiteral("\r\n                                shop\r\n                                now<i class=\"d-icon-arrow-right\"></i>\r\n                            ");
             }
             );
@@ -457,7 +464,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </div>\r\n                    </div>\r\n                    <!-- End Megamenu -->\r\n                </div>\r\n            </div>\r\n        </li>\r\n        <li>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5555582", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5555817", async() => {
                 WriteLiteral("Products");
             }
             );
@@ -478,7 +485,7 @@ using Riode.WebUI.AppCode.Extensions;
                         <h4 class=""menu-title"">Product Pages</h4>
                         <ul>
                             <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5556936", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5557171", async() => {
                 WriteLiteral("Simple Product");
             }
             );
@@ -493,7 +500,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5558058", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5558293", async() => {
                 WriteLiteral("Variable Product");
             }
             );
@@ -508,7 +515,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5559182", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5559417", async() => {
                 WriteLiteral("Sale Product");
             }
             );
@@ -523,7 +530,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5560302", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5560537", async() => {
                 WriteLiteral("Featured &amp; On Sale");
             }
             );
@@ -538,7 +545,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5561436", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5561671", async() => {
                 WriteLiteral("With Left Sidebar");
             }
             );
@@ -553,7 +560,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5562561", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5562796", async() => {
                 WriteLiteral("With Right Sidebar");
             }
             );
@@ -568,7 +575,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5563723", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5563958", async() => {
                 WriteLiteral("\r\n                                    Add Cart Sticky<span class=\"tip tip-hot\">Hot</span>\r\n                                ");
             }
             );
@@ -583,7 +590,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5564992", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5565227", async() => {
                 WriteLiteral("Tab Inside");
             }
             );
@@ -605,7 +612,7 @@ using Riode.WebUI.AppCode.Extensions;
                         <ul>
                             <li>
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5566373", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5566608", async() => {
                 WriteLiteral("\r\n                                    Grid Images<span class=\"tip tip-new\">New</span>\r\n                                ");
             }
             );
@@ -620,7 +627,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5567638", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5567873", async() => {
                 WriteLiteral("Masonry");
             }
             );
@@ -635,7 +642,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5568753", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5568988", async() => {
                 WriteLiteral("Gallery Type");
             }
             );
@@ -650,7 +657,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5569873", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5570108", async() => {
                 WriteLiteral("Full Width Layout");
             }
             );
@@ -665,7 +672,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5570998", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5571233", async() => {
                 WriteLiteral("Sticky Info");
             }
             );
@@ -680,7 +687,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                            <li>\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5572153", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5572388", async() => {
                 WriteLiteral("Left &amp; Right Sticky");
             }
             );
@@ -695,7 +702,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </li>\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5573316", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5573551", async() => {
                 WriteLiteral("Horizontal Thumb");
             }
             );
@@ -710,7 +717,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n\r\n                            <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5574444", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5574679", async() => {
                 WriteLiteral("Build Your Own");
             }
             );
@@ -725,7 +732,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        </ul>\r\n                    </div>\r\n                    <div class=\"col-6 col-sm-4 col-md-3 col-lg-4 menu-banner menu-banner2 banner banner-fixed\">\r\n                        <figure>\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5575778", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5576013", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -758,7 +765,7 @@ using Riode.WebUI.AppCode.Extensions;
         </li>
         <li>
             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5577699", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5577934", async() => {
                 WriteLiteral("Pages");
             }
             );
@@ -773,7 +780,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n            <ul>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5578815", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5579050", async() => {
                 WriteLiteral("About");
             }
             );
@@ -791,7 +798,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5580203", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5580438", async() => {
                 WriteLiteral("Contact Us");
             }
             );
@@ -806,7 +813,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5581309", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5581544", async() => {
                 WriteLiteral("My Account");
             }
             );
@@ -821,7 +828,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5582415", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5582650", async() => {
                 WriteLiteral("Wishlist");
             }
             );
@@ -836,7 +843,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5583519", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5583754", async() => {
                 WriteLiteral("FAQs");
             }
             );
@@ -851,7 +858,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5584619", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5584854", async() => {
                 WriteLiteral("Error 404");
             }
             );
@@ -866,7 +873,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5585724", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5585959", async() => {
                 WriteLiteral("Coming Soon");
             }
             );
@@ -881,7 +888,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5586877", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5587112", async() => {
                 WriteLiteral("Blog");
             }
             );
@@ -899,7 +906,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n            <ul>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5588279", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5588514", async() => {
                 WriteLiteral("Classic");
             }
             );
@@ -914,7 +921,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5589382", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5589617", async() => {
                 WriteLiteral("Listing");
             }
             );
@@ -929,7 +936,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5590509", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5590744", async() => {
                 WriteLiteral("Grid");
             }
             );
@@ -944,7 +951,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <ul>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5591640", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5591875", async() => {
                 WriteLiteral("Grid 2 columns");
             }
             );
@@ -959,7 +966,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5592758", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5592993", async() => {
                 WriteLiteral("Grid 3 columns");
             }
             );
@@ -974,7 +981,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5593876", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5594111", async() => {
                 WriteLiteral("Grid 4 columns");
             }
             );
@@ -989,7 +996,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5594994", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5595229", async() => {
                 WriteLiteral("Grid sidebar");
             }
             );
@@ -1004,7 +1011,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                    </ul>\r\n                </li>\r\n                <li>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5596180", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5596415", async() => {
                 WriteLiteral("Masonry");
             }
             );
@@ -1019,7 +1026,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <ul>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5597314", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5597549", async() => {
                 WriteLiteral("Masonry 2 columns");
             }
             );
@@ -1034,7 +1041,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5598435", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5598670", async() => {
                 WriteLiteral("Masonry 3 columns");
             }
             );
@@ -1049,7 +1056,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5599556", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd5599791", async() => {
                 WriteLiteral("Masonry 4 columns");
             }
             );
@@ -1064,7 +1071,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55100677", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55100912", async() => {
                 WriteLiteral("Masonry sidebar");
             }
             );
@@ -1079,7 +1086,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                    </ul>\r\n                </li>\r\n                <li>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55101867", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55102102", async() => {
                 WriteLiteral("Mask");
             }
             );
@@ -1094,7 +1101,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <ul>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55102999", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55103234", async() => {
                 WriteLiteral("Blog mask grid");
             }
             );
@@ -1109,7 +1116,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55104118", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55104353", async() => {
                 WriteLiteral("Blog mask masonry");
             }
             );
@@ -1124,7 +1131,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                    </ul>\r\n                </li>\r\n                <li>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55105310", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55105545", async() => {
                 WriteLiteral("Single Post");
             }
             );
@@ -1142,7 +1149,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=\"d-xl-show\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55106793", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55107028", async() => {
                 WriteLiteral("Elements");
             }
             );
@@ -1157,7 +1164,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n            <ul>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55107913", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55108148", async() => {
                 WriteLiteral("Products");
             }
             );
@@ -1172,7 +1179,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55109018", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55109253", async() => {
                 WriteLiteral("Typography");
             }
             );
@@ -1187,7 +1194,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55110125", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55110360", async() => {
                 WriteLiteral("Titles");
             }
             );
@@ -1202,7 +1209,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55111228", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55111463", async() => {
                 WriteLiteral("Product Category");
             }
             );
@@ -1217,7 +1224,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55112341", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55112576", async() => {
                 WriteLiteral("Buttons");
             }
             );
@@ -1232,7 +1239,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55113445", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55113680", async() => {
                 WriteLiteral("Accordions");
             }
             );
@@ -1247,7 +1254,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55114552", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55114787", async() => {
                 WriteLiteral("Alert &amp; Notification");
             }
             );
@@ -1262,7 +1269,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55115673", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55115908", async() => {
                 WriteLiteral("Tabs");
             }
             );
@@ -1277,7 +1284,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55116774", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55117009", async() => {
                 WriteLiteral("Testimonials");
             }
             );
@@ -1292,7 +1299,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55117883", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55118118", async() => {
                 WriteLiteral("Blog Posts");
             }
             );
@@ -1307,7 +1314,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55118990", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55119225", async() => {
                 WriteLiteral("Instagrams");
             }
             );
@@ -1322,7 +1329,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55120097", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55120332", async() => {
                 WriteLiteral("Call to Action");
             }
             );
@@ -1337,7 +1344,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55121208", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55121443", async() => {
                 WriteLiteral("Icon Boxes");
             }
             );
@@ -1352,7 +1359,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n                <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55122315", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55122550", async() => {
                 WriteLiteral("Icons");
             }
             );
@@ -1367,7 +1374,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55123463", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55123698", async() => {
                 WriteLiteral("About Us");
             }
             );
@@ -1385,7 +1392,7 @@ using Riode.WebUI.AppCode.Extensions;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </li>\r\n        <li>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55124875", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d10e4c0bee51f18aa3f342883ed8bd3d7a2cd55125110", async() => {
                 WriteLiteral("Faqs");
             }
             );

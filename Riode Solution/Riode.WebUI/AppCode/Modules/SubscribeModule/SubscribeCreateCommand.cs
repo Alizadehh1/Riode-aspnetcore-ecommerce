@@ -19,6 +19,7 @@ namespace Riode.WebUI.AppCode.Modules.SubscribeModule
 {
     public class SubscribeCreateCommand : IRequest<CommandJsonResponse>
     {
+        public int Id { get; set; }
         [Required(ErrorMessage = "Cannot Empty")]
         [EmailAddress(ErrorMessage = "Email does not contain")]
         public string Email { get; set; }
@@ -48,6 +49,7 @@ namespace Riode.WebUI.AppCode.Modules.SubscribeModule
                 {
                     subscribe = new Subscribe();
                     subscribe.Email = request.Email;
+                    subscribe.Id = request.Id;
                     await db.Subscribes.AddAsync(subscribe, cancellationToken);
                     await db.SaveChangesAsync(cancellationToken);
                 }

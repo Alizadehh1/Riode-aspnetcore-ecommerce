@@ -22,5 +22,14 @@ namespace Riode.WebUI.AppCode.Extensions
             return ctx.ActionContext.ModelState.IsValid;
         }
 
+        public static string GetError(this IActionContextAccessor ctx)
+        {
+            if (ctx.ModelIsValid())
+            {
+                return null;
+            }
+            return ctx.ActionContext.ModelState.First().Value.Errors.First().ErrorMessage;
+        }
+
     }
 }

@@ -19,13 +19,11 @@ namespace Riode.WebUI.Areas.Admin.Controllers
     public class BlogsController : Controller
     {
         private readonly RiodeDbContext db;
-        readonly IWebHostEnvironment env;
         readonly IMediator mediator;
 
-        public BlogsController(RiodeDbContext db,IWebHostEnvironment env,IMediator mediator)
+        public BlogsController(RiodeDbContext db,IMediator mediator)
         {
             this.db = db;
-            this.env = env;
             this.mediator = mediator;
         }
 
@@ -99,49 +97,11 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             ViewData["CategoryId"] = new SelectList(db.Categories, "Id", "Name", command.CategoryId);
             return RedirectToAction(nameof(Index));
         }
-
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var blog = await db.Blogs
-                .Include(b => b.Category)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (blog == null)
-            {
-                return NotFound();
-            }
-
-            return View(blog);
-        }
         [HttpPost]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(BlogRemoveCommand command)
         {
-            var entity = db.Blogs.FirstOrDefault(b => b.Id == id && b.DeletedById == null);
-            if (entity == null)
-            {
-                return Json(new
-                {
-                    error = true,
-                    message = "Movcud deyil"
-                });
-            }
-            entity.DeletedById = 1; //yazaciqq
-            entity.DeletedDate = DateTime.UtcNow.AddHours(4);
-            db.SaveChanges();
-            return Json(new
-            {
-                error = false,
-                message = "Ugurla silindi"
-            });
-        }
-
-        private bool BlogExists(int id)
-        {
-            return db.Blogs.Any(e => e.Id == id);
+            var response = await mediator.Send(command);
+            return Json(response);
         }
     }
 }

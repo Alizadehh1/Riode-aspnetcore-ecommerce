@@ -27,7 +27,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
         
         public async Task<IActionResult> Index()
         {
-            var a = await mediator.Send(new SubscribeCreateCommand { Email = "alisal@code.edu.az" });
             var data = await mediator.Send(new BrandsAllQuery());
 
             return View(data);
