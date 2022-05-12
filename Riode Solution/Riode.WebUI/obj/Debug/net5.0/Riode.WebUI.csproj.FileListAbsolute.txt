@@ -383,3 +383,8 @@ C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Views\Home\SubscribeConfirm.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Products\Create.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Products\Delete.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Products\Details.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Products\Edit.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\Riode-aspnetcore-ecommerce\Riode Solution\Riode.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Products\Index.cshtml.g.cs

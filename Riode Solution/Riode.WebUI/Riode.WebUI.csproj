@@ -113,7 +113,6 @@
   <ItemGroup>
     <Folder Include="AppCode\Modules\CategoryModule\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="wwwroot\libs\" />
     <Folder Include="wwwroot\uploads\images\" />
   </ItemGroup>
 

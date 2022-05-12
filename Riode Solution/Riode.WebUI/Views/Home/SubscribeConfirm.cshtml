@@ -3,16 +3,16 @@
     ViewData["Title"] = "SubscribeConfirm";
 }
 
-@if (Model.Error)
+@if (Model.Error==false)
 {
-    <div class="alert alert-danger" role="alert">
-        @Model.Message
+    <div class="alert alert-success text-white justify-content-center d-flex" role="alert">
+        @Model.Message <a asp-controller="home" asp-action="index" class="alert-link">&nbspHome</a>.
     </div>
 }
 else
 {
-    <div class="alert alert-success" role="alert">
-        @Model.Message <a asp-action="index" asp-controller="home" class="alert-link">Home</a>.
+    <div class="alert alert-danger text-white justify-content-center d-flex" role="alert">
+        @Model.Message <a asp-controller="home" asp-action="index" class="alert-link">&nbspHome</a>.
     </div>
 }
 

@@ -1,5 +1,4 @@
-﻿@model Subscribe
-@{
+﻿@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -76,7 +75,7 @@
                                     <p class="mb-0">Get all the latest information, Sales and Offers.</p>
                                 </div>
                                 <form method="post" id="subscribeForm" class="input-wrapper input-wrapper-inline">
-                                    <input type="email" class="form-control" asp-for="Email" id="email"
+                                    <input type="email" class="form-control" name="Email" id="email"
                                            placeholder="Email address here..." required />
                                     <button id="btnSubs" class="btn btn-primary btn-rounded btn-md ml-2" type="submit">
                                         subscribe<i class="d-icon-arrow-right"></i>

@@ -64,6 +64,7 @@ namespace Riode.WebUI.Controllers
             var response = await mediator.Send(command);
             return Json(response);
         }
+
         [HttpGet]
         [Route("/subscribe-confirm")]
         public async Task<IActionResult> SubscribeConfirm(SubscribeConfirmCommand command)
