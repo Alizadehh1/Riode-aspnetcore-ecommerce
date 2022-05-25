@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Riode.WebUI.AppCode.Extensions;
+using Riode.WebUI.AppCode.Infrastructure;
 using Riode.WebUI.AppCode.Modules.ProductModule;
 using Riode.WebUI.Models.DataContexts;
 using Riode.WebUI.Models.Entities;
@@ -15,15 +18,20 @@ namespace Riode.WebUI.Areas.Admin.Controllers
     public class ProductsController : Controller
     {
         private readonly RiodeDbContext _context;
+        private readonly IMediator mediator;
 
-        public ProductsController(RiodeDbContext context)
+        public ProductsController(RiodeDbContext context, IMediator mediator)
         {
             _context = context;
+            this.mediator = mediator;
         }
 
         public async Task<IActionResult> Index()
         {
-            var riodeDbContext = _context.Product.Include(p => p.Brand).Include(p => p.Category);
+            var riodeDbContext = _context.Product
+                .Include(p => p.Brand)
+                .Include(p => p.Category)
+                .Include(i => i.Images.Where(i => i.IsMain == true));
             return View(await riodeDbContext.ToListAsync());
         }
 
@@ -50,6 +58,11 @@ namespace Riode.WebUI.Areas.Admin.Controllers
         {
             ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Name");
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+
+            ViewData["Colors"] = new SelectList(_context.Colors, "Id", "Name");
+            ViewData["Sizes"] = new SelectList(_context.Sizes, "Id", "Name");
+            ViewBag.Specifications = _context.Specification.Where(s => s.DeletedById == null)
+                .ToList();
             return View();
         }
 
@@ -57,18 +70,16 @@ namespace Riode.WebUI.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProductCreateCommand command)
         {
-            if (ModelState.IsValid)
+            var product = await mediator.Send(command);
+
+            if (product?.ValidationResult != null && !product.ValidationResult.IsValid)
             {
-                _context.Add(command);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Json(product.ValidationResult);
             }
-            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Name", command.BrandId);
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", command.CategoryId);
-            return View(command);
+
+            return Json(new CommandJsonResponse(false, $"Ugurlu emeliyyat, yeni mehsulun kodu:{product.Product.Id}"));
         }
 
-        // GET: Admin/Products/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -76,51 +87,37 @@ namespace Riode.WebUI.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Product.FindAsync(id);
+            var product = await _context.Product
+                .Include(p => p.Images)
+                .Include(p => p.Specifications)
+                .Include(p => p.Pricings)
+                .FirstOrDefaultAsync(p => p.Id == id);
             if (product == null)
             {
                 return NotFound();
             }
             ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Name", product.BrandId);
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
+            ViewData["Colors"] = new SelectList(_context.Colors, "Id", "Name");
+            ViewData["Sizes"] = new SelectList(_context.Sizes, "Id", "Name");
+            ViewBag.Specifications = _context.Specification.Where(s => s.DeletedById == null)
+                .ToList();
             return View(product);
         }
 
-        // POST: Admin/Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Name,StockKeepingUnit,BrandId,ShortDescription,Description,CategoryId,Id,CreatedById,CreatedDate,DeletedById,DeletedDate")] Product product)
+        public async Task<IActionResult> Edit(ProductEditCommand model)
         {
-            if (id != product.Id)
+
+            var product = await mediator.Send(model);
+
+            if (product?.ValidationResult != null && !product.ValidationResult.IsValid)
             {
-                return NotFound();
+                return Json(product.ValidationResult);
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(product);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProductExists(product.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Name", product.BrandId);
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
-            return View(product);
+            return Json(new CommandJsonResponse(false, $"Ugurlu emeliyyat, yeni mehsulun kodu:{product.Product.Id}"));
         }
 
         // GET: Admin/Products/Delete/5

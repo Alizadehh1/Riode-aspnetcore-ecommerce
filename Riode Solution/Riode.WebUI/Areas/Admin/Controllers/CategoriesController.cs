@@ -136,24 +136,6 @@ namespace Riode.WebUI.Areas.Admin.Controllers
             return View(category);
         }
 
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var category = await db.Categories
-                .Include(c => c.Parent)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            return View(category);
-        }
-
         [HttpPost]
         public IActionResult Delete([FromRoute] int id)
         {

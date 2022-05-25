@@ -1,7 +1,10 @@
-﻿using MediatR;
+﻿using FluentValidation;
+using FluentValidation.Results;
+using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Riode.WebUI.AppCode.Extensions;
 using Riode.WebUI.Models.DataContexts;
 using Riode.WebUI.Models.Entities;
 using System;
@@ -12,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace Riode.WebUI.AppCode.Modules.ProductModule
 {
-    public class ProductCreateCommand : IRequest<Product>
+    public class ProductCreateCommand : IRequest<ProductCreateCommandResponse>
     {
         public string Name { get; set; }
         public string StockKeepingUnit { get; set; }
@@ -20,45 +23,145 @@ namespace Riode.WebUI.AppCode.Modules.ProductModule
         public string ShortDescription { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
+
         public SpecificationKeyValue[] Specification { get; set; }
         public ProductPricing[] Pricing { get; set; }
         public ImageItem[] Images { get; set; }
 
-        public class ProductCreateCommandHandler : IRequestHandler<ProductCreateCommand, Product>
+
+
+        public class ProductCreateCommandHandler : IRequestHandler<ProductCreateCommand, ProductCreateCommandResponse>
         {
             readonly RiodeDbContext db;
-            readonly IWebHostEnvironment env;
             readonly IActionContextAccessor ctx;
-            public ProductCreateCommandHandler(RiodeDbContext db,IWebHostEnvironment env,IActionContextAccessor ctx)
+            readonly IWebHostEnvironment env;
+            readonly IValidator<ProductCreateCommand> validator;
+
+            public ProductCreateCommandHandler(RiodeDbContext db,
+                IActionContextAccessor ctx,
+                IWebHostEnvironment env,
+                IValidator<ProductCreateCommand> validator)
             {
                 this.db = db;
-                this.env = env;
                 this.ctx = ctx;
+                this.env = env;
+                this.validator = validator;
             }
-            public async Task<Product> Handle(ProductCreateCommand request, CancellationToken cancellationToken)
+
+            public async Task<ProductCreateCommandResponse> Handle(ProductCreateCommand request, CancellationToken cancellationToken)
             {
-                throw new NotImplementedException();
+                var result = validator.Validate(request);
+
+
+
+                if (!result.IsValid)
+                {
+                    var response = new ProductCreateCommandResponse
+                    {
+                        Product = null,
+                        ValidationResult = result
+                    };
+
+                    return response;
+                }
+
+                var product = new Product();
+
+                product.Name = request.Name;
+                product.StockKeepingUnit = request.StockKeepingUnit;
+
+                product.BrandId = request.BrandId;
+                product.CategoryId = request.CategoryId;
+                product.ShortDescription = request.ShortDescription;
+                product.Description = request.Description;
+
+                if (request.Specification != null && request.Specification.Length > 0)
+                {
+                    product.Specifications = new List<ProductSpecification>();
+
+                    foreach (var spec in request.Specification)
+                    {
+                        product.Specifications.Add(new ProductSpecification
+                        {
+                            SpecificationId = spec.Id,
+                            Value = spec.Value
+                        });
+                    }
+                }
+
+                if (request.Images != null && request.Images.Any(i => i.File != null))
+                {
+                    product.Images = new List<ProductImage>();
+
+                    foreach (var productFile in request.Images.Where(i => i.File != null))
+                    {
+                        string name = await env.SaveFile(productFile.File, cancellationToken, "product");
+
+                        product.Images.Add(new ProductImage
+                        {
+                            ImagePath = name,
+                            IsMain = productFile.IsMain
+                        });
+                    }
+                }
+                else
+                {
+                    ctx.AddModelError("Images", "Sekil qeyd edilmeyib");
+                    goto l1;
+                }
+
+
+                if (request.Pricing != null && request.Pricing.Length > 0)
+                {
+                    product.Pricings = new List<Models.Entities.ProductPricing>();
+
+                    foreach (var pricing in request.Pricing)
+                    {
+                        product.Pricings.Add(new Models.Entities.ProductPricing
+                        {
+                            ColorId = pricing.ColorId,
+                            SizeId = pricing.SizeId,
+                            Price = pricing.Price
+                        });
+                    }
+                }
+
+                await db.Product.AddAsync(product, cancellationToken);
+                try
+                {
+                    await db.SaveChangesAsync(cancellationToken);
+                    var response = new ProductCreateCommandResponse
+                    {
+                        Product = product,
+                        ValidationResult = result
+                    };
+                    return response;
+                }
+                catch (Exception ex)
+                {
+                    var response = new ProductCreateCommandResponse
+                    {
+                        Product = product,
+                        ValidationResult = result
+                    };
+
+                    response.ValidationResult.Errors.Add(new ValidationFailure("Name", "Xeta bash verdi,Biraz sonra yeniden yoxlayin"));
+
+                    return response;
+                }
+
+            l1:
+                return null;
             }
         }
     }
 
-    public class SpecificationKeyValue
+
+
+
+    public class ProductCreateCommandResponse
     {
-        public int Id { get; set; }
-        public string Value { get; set; }
-    }
-    public class ProductPricing
-    {
-        public int ProductId { get; set; }
-        public int SizeId { get; set; }
-        public int ColorId { get; set; }
-        public double Price { get; set; }
-    }
-    public class ImageItem
-    {
-        public int? Id { get; set; }
-        public bool IsMain { get; set; }
-        public string TempPath { get; set; }
-        public IFormFile File { get; set; }
+        public Product Product { get; set; }
+        public ValidationResult ValidationResult { get; set; }
     }
 }

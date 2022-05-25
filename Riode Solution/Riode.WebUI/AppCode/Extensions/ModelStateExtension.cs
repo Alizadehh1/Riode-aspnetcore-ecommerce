@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Riode.WebUI.Models.Entities;
 using System;
 using System.Collections.Generic;
@@ -24,11 +25,16 @@ namespace Riode.WebUI.AppCode.Extensions
 
         public static string GetError(this IActionContextAccessor ctx)
         {
-            if (ctx.ModelIsValid())
+            return ctx.ActionContext.ModelState.GetError();
+        }
+
+        public static string GetError(this ModelStateDictionary modelState)
+        {
+            if (modelState.IsValid)
             {
                 return null;
             }
-            return ctx.ActionContext.ModelState.First().Value.Errors.First().ErrorMessage;
+            return modelState.First().Value.Errors.First().ErrorMessage;
         }
 
     }
