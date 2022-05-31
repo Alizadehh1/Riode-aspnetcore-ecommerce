@@ -14,6 +14,7 @@ using Riode.Data.DataContexts;
 using Riode.Data.Entities;
 using Riode.Data.Entities.Membership;
 using System;
+using System.Linq;
 
 namespace Riode.WebUI
 {
@@ -69,12 +70,18 @@ namespace Riode.WebUI
                 cfg.Cookie.Name = "Riode";
             });
 
-            services.AddMediatR(this.GetType().Assembly);
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies()
+                .Where(a => a.FullName.StartsWith("Riode."))
+                .ToArray();
+
+            services.AddMediatR(assemblies);
             
             services.AddFluentValidation(cfg =>
             {
-                cfg.RegisterValidatorsFromAssemblies(new[] { this.GetType().Assembly });
+                cfg.RegisterValidatorsFromAssemblies(assemblies);
             });
+
+
             services.AddTransient<IActionContextAccessor, ActionContextAccessor>();
         }
 
