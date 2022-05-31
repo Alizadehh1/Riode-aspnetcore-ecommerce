@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Riode.WebUI.AppCode.Modules.ContactModule;
+using Riode.Business.Modules.ContactModule;
 using System;
 using System.Collections.Generic;
 using System.Linq;

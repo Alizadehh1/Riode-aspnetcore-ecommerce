@@ -1,9 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Riode.WebUI.AppCode.Modules.SizeModule;
-using Riode.WebUI.Models.DataContexts;
-using Riode.WebUI.Models.Entities;
+using Riode.Business.Modules.SizeModule;
+using Riode.Data.DataContexts;
+using Riode.Data.Entities;
 using System.Linq;
 using System.Threading.Tasks;
 

@@ -116,7 +116,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AppCode\Modules\CategoryModule\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\uploads\images\" />
   </ItemGroup>
@@ -218,6 +217,12 @@
     <None Include="wwwroot\admin\files\bower_components\swiper\package\js\swiper.min.js" />
     <None Include="wwwroot\admin\files\bower_components\switchery\dist\switchery.min.js" />
     <None Include="wwwroot\admin\files\bower_components\underscore\underscore-min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Riode.Business\Riode.Business.csproj" />
+    <ProjectReference Include="..\Riode.Core\Riode.Core.csproj" />
+    <ProjectReference Include="..\Riode.Data\Riode.Data.csproj" />
   </ItemGroup>
 
 </Project>

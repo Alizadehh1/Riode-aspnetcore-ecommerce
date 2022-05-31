@@ -1,0 +1,15 @@
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\bin\Debug\net5.0\Riode.Core.deps.json
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\bin\Debug\net5.0\Riode.Core.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\bin\Debug\net5.0\ref\Riode.Core.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\bin\Debug\net5.0\Riode.Core.pdb
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\bin\Debug\net5.0\Riode.Data.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\bin\Debug\net5.0\Riode.Data.pdb
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\Riode.Core.csproj.AssemblyReference.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\Riode.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\Riode.Core.AssemblyInfoInputs.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\Riode.Core.AssemblyInfo.cs
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\Riode.Core.csproj.CoreCompileInputs.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\Riode.Core.csproj.CopyComplete
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\Riode.Core.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\ref\Riode.Core.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Core\obj\Debug\net5.0\Riode.Core.pdb

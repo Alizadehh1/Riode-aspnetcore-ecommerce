@@ -1,17 +1,17 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Riode.WebUI.Models.Entities;
+using Riode.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Riode.WebUI.Models.DataContexts
+namespace Riode.Data.DataContexts
 {
     public static class RiodeDbSeed
     {
-        static internal void InitDb(this IApplicationBuilder app)
+        static public void InitDb(this IApplicationBuilder app)
         {
             using (var scope = app.ApplicationServices.CreateScope())
             {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Riode.WebUI.Models.Entities
+namespace Riode.Data.Entities
 {
     public class ProductSpecification
     {

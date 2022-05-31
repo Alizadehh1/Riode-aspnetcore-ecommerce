@@ -9,10 +9,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Riode.WebUI.AppCode.Providers;
-using Riode.WebUI.Models.DataContexts;
-using Riode.WebUI.Models.Entities;
-using Riode.WebUI.Models.Entities.Membership;
+using Riode.Core.Providers;
+using Riode.Data.DataContexts;
+using Riode.Data.Entities;
+using Riode.Data.Entities.Membership;
 using System;
 
 namespace Riode.WebUI

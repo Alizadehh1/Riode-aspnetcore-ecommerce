@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\Riode.Data.csproj": {}
+    "C:\\Users\\alide\\OneDrive\\Desktop\\salam\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\Riode.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\Riode.Data.csproj": {
+    "C:\\Users\\alide\\OneDrive\\Desktop\\salam\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\Riode.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\Riode.Data.csproj",
+        "projectUniqueName": "C:\\Users\\alide\\OneDrive\\Desktop\\salam\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\Riode.Data.csproj",
         "projectName": "Riode.Data",
-        "projectPath": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\Riode.Data.csproj",
+        "projectPath": "C:\\Users\\alide\\OneDrive\\Desktop\\salam\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\Riode.Data.csproj",
         "packagesPath": "C:\\Users\\alide\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\obj\\",
+        "outputPath": "C:\\Users\\alide\\OneDrive\\Desktop\\salam\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alide\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,36 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,15 @@
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\bin\Debug\net5.0\Riode.Data.deps.json
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\bin\Debug\net5.0\Riode.Data.runtimeconfig.json
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\bin\Debug\net5.0\Riode.Data.runtimeconfig.dev.json
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\bin\Debug\net5.0\Riode.Data.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\bin\Debug\net5.0\ref\Riode.Data.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\bin\Debug\net5.0\Riode.Data.pdb
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\Riode.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\Riode.Data.AssemblyInfoInputs.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\Riode.Data.AssemblyInfo.cs
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\Riode.Data.csproj.CoreCompileInputs.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\Riode.Data.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\ref\Riode.Data.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\Riode.Data.pdb
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\Riode.Data.genruntimeconfig.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Data\obj\Debug\net5.0\Riode.Data.csproj.AssemblyReference.cache

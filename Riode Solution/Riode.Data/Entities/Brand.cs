@@ -1,10 +1,10 @@
-﻿using Riode.WebUI.AppCode.Infrastructure;
+﻿using Riode.Data.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Riode.WebUI.Models.Entities
+namespace Riode.Data.Entities
 {
     public class Brand : BaseEntity
     {

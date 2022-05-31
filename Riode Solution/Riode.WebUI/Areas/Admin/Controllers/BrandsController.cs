@@ -6,10 +6,10 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Riode.WebUI.AppCode.Modules.BrandModule;
-using Riode.WebUI.AppCode.Modules.SubscribeModule;
-using Riode.WebUI.Models.DataContexts;
-using Riode.WebUI.Models.Entities;
+using Riode.Business.Modules.BrandModule;
+using Riode.Business.Modules.SubscribeModule;
+using Riode.Data.DataContexts;
+using Riode.Data.Entities;
 
 namespace Riode.WebUI.Areas.Admin.Controllers
 {

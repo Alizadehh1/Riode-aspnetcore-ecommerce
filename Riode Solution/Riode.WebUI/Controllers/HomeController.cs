@@ -1,9 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Riode.WebUI.AppCode.Modules.SubscribeModule;
-using Riode.WebUI.Models.DataContexts;
-using Riode.WebUI.Models.Entities;
+using Riode.Business.Modules.SubscribeModule;
+using Riode.Data.DataContexts;
+using Riode.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

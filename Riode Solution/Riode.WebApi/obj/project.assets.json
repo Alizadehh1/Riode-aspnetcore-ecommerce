@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebApi\\Riode.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\alide\\OneDrive\\Desktop\\salam\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebApi\\Riode.WebApi.csproj",
       "projectName": "Riode.WebApi",
-      "projectPath": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebApi\\Riode.WebApi.csproj",
+      "projectPath": "C:\\Users\\alide\\OneDrive\\Desktop\\salam\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebApi\\Riode.WebApi.csproj",
       "packagesPath": "C:\\Users\\alide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alide\\OneDrive\\Desktop\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\alide\\OneDrive\\Desktop\\salam\\Riode-aspnetcore-ecommerce\\Riode Solution\\Riode.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alide\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,17 @@
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\bin\Debug\net5.0\Riode.Business.deps.json
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\bin\Debug\net5.0\Riode.Business.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\bin\Debug\net5.0\ref\Riode.Business.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\bin\Debug\net5.0\Riode.Business.pdb
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\bin\Debug\net5.0\Riode.Core.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\bin\Debug\net5.0\Riode.Data.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\bin\Debug\net5.0\Riode.Core.pdb
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\bin\Debug\net5.0\Riode.Data.pdb
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\Riode.Business.csproj.AssemblyReference.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\Riode.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\Riode.Business.AssemblyInfoInputs.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\Riode.Business.AssemblyInfo.cs
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\Riode.Business.csproj.CoreCompileInputs.cache
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\Riode.Business.csproj.CopyComplete
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\Riode.Business.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\ref\Riode.Business.dll
+C:\Users\alide\OneDrive\Desktop\salam\Riode-aspnetcore-ecommerce\Riode Solution\Riode.Business\obj\Debug\net5.0\Riode.Business.pdb
